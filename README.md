@@ -700,3 +700,354 @@ User must be logged into the **GTVL Promodizer Portal** and navigate to **My Pro
 
 **Screenshot Reference:**  
 [p2-ss-4](ScreenShot/p2-ss-4.png)
+
+---
+### **Bug-id : P2-BG-5**
+
+**Title:** Sidebar Active State Not Updating Consistently (Highlight & Green Indicator Issues)
+
+**Description:**  
+The sidebar navigation in the Promodizer Portal does not correctly update the active state when moving between modules.  
+This issue appears in two ways:
+
+**1. Green Active Indicator Does Not Move**  
+- The small green light/backlight stays fixed on **Dashboard**.  
+- It does not follow the currently selected menu option.
+
+**2. Sidebar Highlight (Background Selection) Works Only for Some Items**  
+- Highlight appears correctly for:  
+  - Dashboard  
+  - Record Sales  
+  - My Stores  
+  - My Profile  
+- Highlight does **NOT** appear for:  
+  - Sales History  
+  - Attendance  
+  - Attendance History  
+This makes the sidebar visually inconsistent and confusing for the user.
+
+**Category:** UI / Functional  
+**Severity:** Medium  
+**Priority:** P2  
+
+**Precondition:**  
+User must be logged into the **GTVL Promodizer Portal**.
+
+**Steps to Reproduce:**  
+1. Open **GTVL Promodizer Portal**  
+2. Observe sidebar highlight & green indicator on **Dashboard**  
+3. Navigate to different modules like:  
+   - Sales History  
+   - Attendance  
+   - Attendance History  
+4. Observe sidebar behavior  
+5. Notice that  
+   - Green indicator does not move  
+   - Highlight is missing for several modules
+
+**Expected Result:**  
+1. The green active-indicator should always move to the menu item currently opened.  
+2. Sidebar highlight should be consistently applied to **every** active menu item.  
+3. All modules should correctly reflect which page is currently selected.
+
+**Actual Result:**  
+1. Green indicator stays fixed on Dashboard.  
+2. Highlight appears only for some menus and is missing on others.  
+3. Sidebar does not visually update based on navigation.
+
+**Screenshot Reference:**  [p2-ss-5](ScreenShot/p2-ss-5.png)
+
+---
+### **Bug-id : P2-BG-6**
+
+**Title:** Feedback Submission Not Saved
+
+**Description:**  
+The feedback form does not successfully save or submit any feedback.  
+Submission always fails, and no feedback is stored.
+
+**Category:** Functional  
+
+**Severity:** High  
+
+**Priority:** P2  
+
+**Steps to Reproduce:**  
+1. Open **GTVL Promodizer Portal**  
+2. Click the **Feedback** button  
+3. Fill in all required fields  
+4. Click **Submit**
+
+**Expected Result:**  
+Feedback should be saved and a success message should appear.
+
+**Actual Result:**  
+An error message appears and the feedback is **not saved**.
+
+**Screenshot Reference:**  [p2-ss-6](ScreenShot/p2-ss-6.png)
+
+---
+# **GTVL Sales Analytics Dashboard — Bug Report**
+
+---
+## **Module 1 — SKU Performance**
+
+---
+### **Bug-id : P3-BG-1**
+
+**Title:** Filters Panel & Min–Max Input Fields Misaligned in SKU Performance Module
+
+**Description:**  
+The **SKU Performance Analysis** screen contains multiple UI alignment issues:
+1. The **Filters panel** is not aligned properly with the SKU table header section.  
+2. The **Total Quantity Sold (Min–Max)** input fields are uneven and visually misaligned.  
+These inconsistencies affect UI clarity and overall user experience.
+
+**Category:** UI  
+**Severity:** Low  
+**Priority:** P3  
+
+**Precondition:**  
+User must be on the **SKU Performance** page in the Sales Analytics Dashboard.
+
+**Steps to Reproduce:**  
+1. Open **Sales Analytics Dashboard**  
+2. Navigate to **SKU Performance**  
+3. Observe the alignment between:  
+   - The Filters panel  
+   - The main table header  
+   - The Min–Max input fields  
+4. Notice misalignment on both areas.
+
+**Expected Result:**  
+1. Filters panel should align consistently with the main content and table header.  
+2. Min–Max input fields should have equal height, spacing, and alignment.
+
+**Actual Result:**  
+1. Filters panel appears shifted and does not align with the overall layout.  
+2. Min–Max input boxes are uneven and misaligned.
+
+**Screenshot Reference:**  [p3-ss-1](ScreenShot/p3-ss-1.png)
+
+---
+### **Bug-id : P3-BG-2**
+
+**Title:** Search Filter Clear (X) Button Not Working
+
+**Description:**  
+1. When a search input is applied in the SKU Performance module, a filter tag appears with a clear (X) button.  
+2. Clicking the **X** does not remove the applied search filter.  
+3. The search field also does not reset, and the results remain unchanged.
+
+**Category:** Functional  
+**Severity:** Low  
+**Priority:** P3  
+
+**Precondition:**  
+A SKU search must be applied using the search bar.
+
+**Steps to Reproduce:**  
+1. Open **Sales Analytics Dashboard**  
+2. Navigate to **SKU Performance**  
+3. Enter any SKU code in the search bar (e.g., `GTVL-BEV-001`)  
+4. Press Enter → Search tag appears  
+5. Click the **X** button on the search tag  
+
+**Expected Result:**  
+- The search tag should disappear  
+- Search filter should be cleared  
+- Results should reset to the full SKU list  
+- Search bar should become empty  
+
+**Actual Result:**  
+- Clicking the **X** does nothing  
+- Search filter remains applied  
+- Results do not reset  
+
+**Screenshot Reference:**  [p3-ss-2](ScreenShot/p3-ss-2.png)
+
+---
+### **Bug-id : P3-BG-3**
+
+**Title:** “Clear All” Button Does Not Reset Status Filters (Active Checkbox Remains Checked)
+
+**Description:**  
+1. The **Clear All** button in the Filters panel does not reset the **Status** checkboxes.  
+2. Even after clicking **Clear All**, the **Active** checkbox remains selected.  
+3. Other filters may reset, but the status filter does not clear.
+
+**Category:** Functional  
+**Severity:** Medium  
+**Priority:** P3  
+
+**Precondition:**  
+At least one filter (Active/Inactive) must be applied in the SKU Performance page.
+
+**Steps to Reproduce:**  
+1. Open **Sales Analytics Dashboard**  
+2. Navigate to **SKU Performance**  
+3. Check the **Active** status checkbox  
+4. Click the **Clear All** button  
+5. Observe the status filter section  
+
+**Expected Result:**  
+- All filters should reset  
+- All checkboxes should be unchecked  
+- No filters should remain selected  
+
+**Actual Result:**  
+- **Active** checkbox remains checked  
+- Filter is not fully cleared  
+- User must manually uncheck the checkbox  
+
+**Screenshot Reference:**  [p3-ss-3](ScreenShot/p3-ss-3.png)
+
+---
+### **Bug-id : P3-BG-4**
+
+**Title:** Custom Date Range Option Does Not Open Any Date Picker
+
+**Description:**  
+1. When selecting **Custom Range** from the Date Range dropdown, no date picker or calendar modal opens.  
+2. User cannot select a start date or end date.  
+3. The Custom Range option becomes unusable and does not filter SKU data.
+
+**Category:** Functional / UI  
+**Severity:** Medium  
+**Priority:** P3  
+
+**Precondition:**  
+User must be on the **SKU Performance** page of the Sales Analytics Dashboard.
+
+**Steps to Reproduce:**  
+1. Open **Sales Analytics Dashboard**  
+2. Navigate to **SKU Performance**  
+3. Click the **Date Range** dropdown  
+4. Select **Custom Range**  
+5. Observe that nothing appears after selection
+
+**Expected Result:**  
+- A **calendar date picker** should appear  
+- User should be able to select **From Date** and **To Date**  
+- Data should refresh based on selected range  
+
+**Actual Result:**  
+- No date picker appears  
+- User cannot choose custom dates  
+- Custom range filtering is impossible  
+
+**Screenshot Reference:**  [p3-ss-4](ScreenShot/p3-ss-4.png)
+
+---
+### **Bug-id : P3-BG-5**
+
+**Title:** Total Quantity Sold Filter Accepts Negative Values
+
+**Description:**  
+1. The **Total Quantity Sold** filter allows users to enter negative numbers (e.g., -55 to -60).  
+2. Negative quantities make no logical sense in sales analytics.  
+3. System applies the filter and displays results with negative range even though sales quantity cannot be negative.  
+
+**Category:** Functional / Validation  
+**Severity:** Medium  
+**Priority:** P3  
+
+**Precondition:**  
+User must be on the **SKU Performance Analysis** page.
+
+**Steps to Reproduce:**  
+1. Open **Sales Analytics Dashboard**  
+2. Navigate to **SKU Performance**  
+3. Scroll down to **Filters → Total Quantity Sold**  
+4. Enter negative values in Min and Max fields  
+5. Click **Apply Filters**
+
+**Expected Result:**  
+1. Total Quantity Sold field should **not** accept negative values.  
+2. Input validation should restrict values to `0` or greater.  
+3. Error message or red border should appear for invalid input.
+
+**Actual Result:**  
+1. Negative values are accepted.  
+2. Filter applies successfully with invalid numeric range.  
+3. Tag shows invalid input: `Quantity: -55 - ∞`.
+
+**Screenshot Reference:**  [p3-ss-5](ScreenShot/p3-ss-5.png)
+
+---
+### **Bug-id : P3-BG-6**
+
+**Title:** Status Filter Misbehavior — Shows “No SKUs Found” When No Option Is Selected
+
+**Description:**  
+1. When both **Active** and **Inactive** checkboxes are unchecked in the Status filter, the system shows a tag **“Status: None Selected”**.  
+2. Instead of showing all SKUs, the system treats it as a filter condition.  
+3. This results in the SKU table displaying **“No SKUs Found”**, even though SKUs exist.  
+4. “No selection” should mean **no filter applied**, not “empty status”.
+
+**Category:** Functional  
+**Severity:** Medium  
+**Priority:** P3  
+
+**Precondition:**  
+User must be on **SKU Performance Analysis** page.
+
+**Steps to Reproduce:**  
+1. Open **Sales Analytics Dashboard**  
+2. Go to **SKU Performance**  
+3. Under **Status**, uncheck both:  
+   - Active  
+   - Inactive  
+4. Click **Apply Filters**
+
+**Expected Result:**  
+- When no checkbox is selected, the system should display **all SKUs**, regardless of status.  
+- No filter tag should be shown because no filtering condition is set.
+
+**Actual Result:**  
+- A tag appears: **“Status: None Selected”**  
+- SKU list becomes empty and shows **“No SKUs Found”**, incorrectly applying a filter.
+
+**Screenshot Reference:**  [p3-ss-6](ScreenShot/p3-ss-6.png)
+
+---
+### **Bug-id : P3-BG-7**
+
+**Title:** Status Filter Incorrectly Shows “Inactive Only” Even When Both Active & Inactive Are Selected
+
+**Description:**  
+1. When **both** Status checkboxes (Active + Inactive) are checked, the applied filter tag incorrectly displays:  
+   **“Status: Inactive Only”**  
+2. The system applies the wrong label even though both statuses are selected.  
+3. This creates confusion and gives the impression that Active SKUs are not included.
+
+**Category:** Functional / UI  
+**Severity:** Medium  
+**Priority:** P3  
+
+**Precondition:**  
+User must be on **SKU Performance Analysis** page.
+
+**Steps to Reproduce:**  
+1. Open **Sales Analytics Dashboard**  
+2. Navigate to **SKU Performance**  
+3. Under **Status**, check:  
+   - Active  
+   - Inactive  
+4. Click **Apply Filters**  
+5. Observe the filter summary tag above the table.
+
+**Expected Result:**  
+- If both options are selected, filter tag should show:  
+  **“Status: Active & Inactive”**  
+  OR  
+  **“Status: All”**  
+- Behavior should clearly indicate that no restriction is applied on status.
+
+**Actual Result:**  
+- Filter summary incorrectly shows:  
+  **“Status: Inactive Only”**  
+- This misrepresents the applied filter and creates confusion.
+
+**Screenshot Reference:**  [p3-ss-7](ScreenShot/p3-ss-7.png)
+
