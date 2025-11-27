@@ -243,3 +243,120 @@
 **Evidence:**  [p1-ss-15](ScreenShot/p1-ss-15.png)
 
 ---
+<h1 align="center"> Day-3 </h1>
+
+---
+# **GTVL Promodizer Portal — Bug Report**
+
+---
+## **Module 1 — Dashboard**
+---
+
+### **Bug-id : P2-BG-1**
+
+**Description:**  
+1. The Home button icon (top-right corner) is not fixed in a consistent position.  
+2. Its placement shifts across different modules such as Record Sales, Sales History, and Attendance.  
+3. This creates UI inconsistency and may confuse users.
+
+**Category:** UI  
+
+**Severity:** Medium  
+
+**Evidence:**  [p2-ss-1](ScreenShot/p2-ss-1.jpg)
+
+---
+
+## **Module 2 — Sales History**
+---
+
+### **Bug-id : P2-BG-2**
+
+**Description:**  
+1. After recording a sale successfully, the entry appears correctly in Sales History.  
+2. When clicking any sales entry, the Sales Detail page opens but shows “Sales record not found”.  
+3. The system fails to load the sale description even though the sale history card displays the sale information.
+
+**Category:** Functional  
+
+**Severity:** High  
+
+**Evidence:**  [p2-ss-2](ScreenShot/p2-ss-2.png)
+
+---
+
+## **Module 3 — Attendance History**
+---
+
+### **Bug-id : P2-BG-3**
+
+**Description:**  
+1. In the Attendance History Calendar View, all dates for the entire month are listed under the Sunday column.  
+2. Other weekday columns (Mon–Sat) remain empty.  
+3. The calendar grid fails to position dates according to correct weekdays.  
+4. This makes the calendar view unusable and misleading.
+
+**Category:** UI / Functional  
+
+**Severity:** Medium  
+
+**Evidence:**  [p2-ss-3](ScreenShot/p2-ss-3.png)
+
+---
+
+## **Module 4 — My Profile**
+---
+
+### **Bug-id : P2-BG-4**
+
+**Description:**  
+1. The My Profile page displays user information only on the left portion of the page.  
+2. A large empty space appears on the right side, making the layout look incomplete.  
+3. Page content does not stretch to utilize available width.  
+4. Overall UI looks unbalanced and visually unappealing.
+
+**Category:** UI  
+
+**Severity:** Low  
+
+**Evidence:**  [p2-ss-4](ScreenShot/p2-ss-4.png)
+
+---
+
+### **Bug-id : P2-BG-5**
+
+**Description:**  
+The sidebar navigation in the Promodizer Portal does not correctly update the active state when moving between modules.  
+This issue appears in two ways:
+
+1. **Green Active Indicator Does Not Move**  
+   - The small green light/backlight stays fixed on Dashboard.  
+   - It does not follow the currently selected menu option.
+
+2. **Sidebar Highlight Works Only for Some Items**  
+   - Highlight appears correctly for Dashboard, Record Sales, My Stores, My Profile.  
+   - Highlight does NOT appear for Sales History, Attendance, Attendance History.  
+
+This makes the sidebar visually inconsistent and confusing.
+
+**Category:** UI / Functional  
+
+**Severity:** Medium  
+
+**Evidence:**  [p2-ss-5](ScreenShot/p2-ss-5.png)
+
+---
+
+### **Bug-id : P2-BG-6**
+
+**Description:**  
+The feedback form does not successfully save or submit any feedback.  
+Submission always fails, and no feedback is stored.
+
+**Category:** Functional  
+
+**Severity:** High  
+
+**Evidence:**  [p2-ss-6](ScreenShot/p2-ss-6.png)
+
+---
