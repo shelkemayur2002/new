@@ -581,6 +581,9 @@ The Home icon **changes position** in different sections, breaking UI alignment.
 **Screenshot Reference:**  [p2-ss-1](ScreenShot/p2-ss-1.jpg)
 
 ---
+## **Module 2 — Sales History**
+
+---
 ### **Bug-id : P2-BG-2**
 
 **Title:** Sales Description Page Not Loading After Recording Sales
@@ -621,4 +624,79 @@ A sales entry must already be recorded in the **Record Sales** module.
 
 **Screenshot Reference:**  [p2-ss-2](ScreenShot/p2-ss-2.png)
 
+------
+## **Module 3 — Attendance History**
+
 ---
+### **Bug-id : P2-BG-3**
+
+**Title:** Calendar View Not Aligned — All Dates Displayed Under Sunday Only
+
+**Description:**  
+1. In the Attendance History **Calendar View**, all dates for the entire month are listed under the **Sunday** column.  
+2. Other weekday columns (Mon–Sat) remain empty.  
+3. The calendar grid fails to position dates according to correct weekdays.  
+4. This makes the calendar view unusable and misleading.
+
+**Category:** UI / Functional  
+**Severity:** Medium  
+**Priority:** P2  
+
+**Precondition:**  
+User must navigate to **Attendance History → Calendar View** in the Promodizer Portal.
+
+**Steps to Reproduce:**  
+1. Open **GTVL Promodizer Portal**  
+2. Navigate to **Attendance History**  
+3. Switch to **Calendar View**  
+4. Scroll through the month view  
+5. Observe how all dates appear only under the **Sunday** column  
+
+**Expected Result:**  
+1. Dates should be positioned correctly based on actual weekdays  
+   - Example: If 1 November 2025 is a Saturday, it should appear under **SAT**  
+2. Calendar grid should reflect an accurate month layout
+
+**Actual Result:**  
+1. All dates (1–30/31) are shown only under the **SUN** column  
+2. Monday–Saturday columns remain empty  
+3. Calendar structure is invalid and confusing  
+
+**Screenshot Reference:**  [p2-ss-3](ScreenShot/p2-ss-3.png)
+
+---
+## **Module 4 — My Profile**
+
+---
+### **Bug-id : P2-BG-4**
+
+**Title:** My Profile Layout Has Excessive Empty Space on Right Side
+
+**Description:**  
+1. The **My Profile** page displays user information only on the left portion of the page.  
+2. A large empty space appears on the right side, making the layout look incomplete.  
+3. Page content does not stretch to utilize available width.  
+4. Overall UI looks unbalanced and visually unappealing.
+
+**Category:** UI  
+**Severity:** Low  
+**Priority:** P3  
+
+**Precondition:**  
+User must be logged into the **GTVL Promodizer Portal** and navigate to **My Profile**.
+
+**Steps to Reproduce:**  
+1. Open **GTVL Promodizer Portal**  
+2. Navigate to **My Profile** from left sidebar  
+3. Observe the layout structure  
+
+**Expected Result:**  
+1. Profile content should be centered or properly expanded to fill available screen width.  
+2. Layout should look visually balanced and polished.  
+
+**Actual Result:**  
+1. Significant unused empty space appears on the right side.  
+2. Page looks unoptimized and visually incomplete.  
+
+**Screenshot Reference:**  
+[p2-ss-4](ScreenShot/p2-ss-4.png)
