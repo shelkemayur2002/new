@@ -1,5 +1,6 @@
 # ERP SYSTEM
 ---
+<h1 align="center"> Day-1 </h1>
 # **GTVL Management Portal — Bug Report**
 * This document contains a consolidated list of UI and Functional defects identified during manual testing of the GTVL Management Portal.
 * The portal includes four modules: SKUs, Stores, Supervisors, and Promodizers.
