@@ -1,9 +1,9 @@
 ### Bug-id : P1-BG-1
-**Description:**  
+#**Description:**  
 1. In the SKU list, all action icons (View, Edit, Delete) are unresponsive.  
 2. Clicking any icon does not trigger any navigation or action.
-**Severity:** High  
-**Evidence:**  p1-ss-1
+#**Severity:** High  
+#**Evidence:**  p1-ss-1
 
 ---
 
