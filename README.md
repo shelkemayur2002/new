@@ -14,7 +14,7 @@
 ---
 ## **Module 1 — SKUs**
 ---
-### **Bug-id : BG-1**
+### **Bug-id : P1-BG-1**
 
 **Title:** SKU Actions Not Working
 
@@ -44,11 +44,11 @@ User must be on the SKUs List page in the GTVL Management Portal.
 1. None of the action buttons work  
 2. No navigation or popup appears
 
-**Screenshot Reference:**  [ss-1](ScreenShot/ss-1.png)
+**Screenshot Reference:**  [p1-ss-1](ScreenShot/p1-ss-1.png)
 
 ---
 
-### **Bug-id : BG-2**
+### **Bug-id : P1-BG-2**
 
 **Title:** Clear Filters Missing
 
@@ -77,10 +77,10 @@ At least one search filter or field value must be applied in the SKUs list.
 1. No clear/reset option exists  
 2. User must manually remove each filter
 
-**Screenshot Reference:**  [ss-2](ScreenShot/ss-2.png)
+**Screenshot Reference:**  [p1-ss-2](ScreenShot/p1-ss-2.png)
 
 ---
-### **Bug-id : BG-3**
+### **Bug-id : P1-BG-3**
 
 **Title:** Duplicate SKU Codes Allowed
 
@@ -110,13 +110,13 @@ At least one SKU must already exist with a valid SKU Code.
 1. SKU is created with a duplicate code  
 2. No validation or warning is displayed
 
-**Screenshot Reference:**  [ss-3](ScreenShot/ss-3.png)
+**Screenshot Reference:**  [p1-ss-3](ScreenShot/p1-ss-3.png)
 
 ---
 ## **Module 2 — Stores**
 
 ---
-### **Bug-id : BG-4**
+### **Bug-id : P1-BG-4**
 
 **Title:** Zip Code Accepts Letters
 
@@ -145,10 +145,10 @@ User must be on the **Add New Store** form.
 1. Letters are accepted  
 2. Store can be submitted with invalid ZIP code
 
-**Screenshot Reference:**  [ss-4](ScreenShot/ss-4.png)
+**Screenshot Reference:**  [p1-ss-4](ScreenShot/p1-ss-4.png)
 
 ---
-### **Bug-id : BG-5**
+### **Bug-id : P1-BG-5**
 
 **Title:** Phone Number Field Does Not Allow Deletion or Backspace
 
@@ -178,10 +178,10 @@ User must be on the **Add New Store** page with input typed in the phone number 
 1. Backspace/Delete does not work  
 2. User is forced to refresh or reopen the form to correct the number  
 
-**Screenshot Reference:**  [ss-5](ScreenShot/ss-5.png)
+**Screenshot Reference:**  [p1-ss-5](ScreenShot/p1-ss-5.png)
 
 ---
-### **Bug-id : BG-6**
+### **Bug-id : P1-BG-6**
 
 **Title:** Store Actions Not Working
 
@@ -211,10 +211,10 @@ Store records must be visible in the Store Directory table.
 1. No action is performed  
 2. No popup or navigation occurs  
 
-**Screenshot Reference:**  [ss-6](ScreenShot/ss-6.png)
+**Screenshot Reference:**  [p1-ss-6](ScreenShot/p1-ss-6.png)
 
 ---
-### **Bug-id : BG-7**
+### **Bug-id : P1-BG-7**
 
 **Title:** Clear Filters Missing in Store Directory
 
@@ -243,10 +243,10 @@ At least one filter (Status, Assignment, or Search) must be applied in the Store
 1. No option exists to clear filters  
 2. User must manually remove each filter
 
-**Screenshot Reference:**  [ss-7](ScreenShot/ss-7.png)
+**Screenshot Reference:**  [p1-ss-7](ScreenShot/p1-ss-7.png)
 
 ---
-### **Bug-id : BG-8**
+### **Bug-id : P1-BG-8**
 
 **Title:** Export Button Not Functional
 
@@ -275,13 +275,13 @@ Store Directory page must be loaded with store records visible.
 1. Nothing happens when the button is clicked  
 2. No download, popup, or system feedback
 
-**Screenshot Reference:**  [ss-8](ScreenShot/ss-8.png)
+**Screenshot Reference:**  [p1-ss-8](ScreenShot/p1-ss-8.png)
 
 ---
 ## **Module 3 — Supervisors**
 
 ---
-### **Bug-id : BG-9**
+### **Bug-id : P1-BG-9**
 
 **Title:** Supervisor Name Field Allows Duplicates and Numbers
 
@@ -313,10 +313,10 @@ At least one supervisor record should already exist for duplication to occur.
 1. Duplicate supervisor names are created  
 2. System accepts names containing numbers without any warning
 
-**Screenshot Reference:**  [ss-9](ScreenShot/ss-9.png)
+**Screenshot Reference:**  [p1-ss-9](ScreenShot/p1-ss-9.png)
 
 ---
-### **Bug-id : BG-10**
+### **Bug-id : P1-BG-10**
 
 **Title:** Phone Number Field Does Not Allow Backspace or Deletion
 
@@ -347,13 +347,13 @@ User must be on the **Add New Supervisor** page with some characters already ent
 2. Backspace/Delete do not work  
 3. User cannot correct the phone number
 
-**Screenshot Reference:**  [ss-10](ScreenShot/ss-10.png)
+**Screenshot Reference:**  [p1-ss-10](ScreenShot/p1-ss-10.png)
 
 ---
 ## **Module 4 — Promodizers**
 
 ---
-### **Bug-id : BG-11**
+### **Bug-id : P1-BG-11**
 
 **Title:** Promodizer Name Field Allows Duplicates and Numbers
 
@@ -385,10 +385,10 @@ At least one promodizer with the same name should already exist in the system.
 1. Duplicate promodizer names are created  
 2. Numeric characters in the name field are accepted without warnings
 
-**Screenshot Reference:**  [ss-11](ScreenShot/ss-11.png)
+**Screenshot Reference:**  [p1-ss-11](ScreenShot/p1-ss-11.png)
 
 ---
-### **Bug-id : BG-12**
+### **Bug-id : P1-BG-12**
 
 **Title:** Create Promodizer Button Stuck on “Creating…”.
 
@@ -416,10 +416,10 @@ User must be on the **Add New Promodizer** form with incomplete or invalid input
 **Actual Result:**  
 1. Button shows “Creating…” in advance  
 
-**Screenshot Reference:**  [ss-12](ScreenShot/ss-12.png)
+**Screenshot Reference:**  [p1-ss-12](ScreenShot/p1-ss-12.png)
 
 ---
-### **Bug-id : BG-13**
+### **Bug-id : P1-BG-13**
 
 **Title:** Cannot Update Promodizer Even With Valid Phone Number Format
 
@@ -455,10 +455,10 @@ User must open the **Edit Promodizer** form for any existing promodizer.
 3. Update button stays disabled  
 4. User is unable to update promodizer details
 
-**Screenshot Reference:**  [ss-13](ScreenShot/ss-13.png)
+**Screenshot Reference:**  [p1-ss-13](ScreenShot/p1-ss-13.png)
 
 ---
-### **Bug-id : BG-14**
+### **Bug-id : P1-BG-14**
 
 **Title:** Assigned Stores Popup — Redirect & Close Button Not Working
 
@@ -492,13 +492,13 @@ A promodizer must have at least one assigned store to display the popup.
 2. Close button does nothing  
 3. Popup remains stuck on the screen until page refresh
 
-**Screenshot Reference:**  [ss-14](ScreenShot/ss-14.png)
+**Screenshot Reference:**  [p1-ss-14](ScreenShot/p1-ss-14.png)
 
 ---
 ## **Module 5 — Dashboard**
 
 ---
-### **Bug-id : BG-15**
+### **Bug-id : P1-BG-15**
 
 **Title:** Dashboard Navigation Arrows Not Working
 
@@ -535,8 +535,90 @@ Clicking the arrow should navigate to the respective module page:
 1. No navigation happens  
 2. Arrows are completely unresponsive
 
-**Screenshot Reference:**  [ss-15](ScreenShot/ss-15.png)
+**Screenshot Reference:**  [p1-ss-15](ScreenShot/p1-ss-15.png)
 
 ---
+<h1 align="center"> Day-3 </h1>
 
-# **GTVL Management Portal — Bug Report**
+---
+# **GTVL Promodizer Portal — Bug Report**
+
+---
+## **Module 1 — Dashboard**
+
+---
+### **Bug-id : P2-BG-1**
+
+**Title:** Home Button Icon Position Not Consistent Across Pages
+
+**Description:**  
+1. The Home button icon (top-right corner) is not fixed in a consistent position.  
+2. Its placement shifts across different modules such as **Record Sales**, **Sales History**, and **Attendance**.  
+3. This creates UI inconsistency and may confuse users.
+
+**Category:** UI  
+
+**Severity:** Medium  
+**Priority:** P2  
+
+**Precondition:**  
+User must be logged into the **GTVL Promodizer Portal**.
+
+**Steps to Reproduce:**  
+1. Open GTVL Promodizer Portal  
+2. Navigate to **Record Sales**  
+3. Observe the position of the Home icon  
+4. Navigate to **Sales History**  
+5. Navigate to **Attendance**  
+6. Compare Home icon placement across screens  
+
+**Expected Result:**  
+The Home icon should remain in a **fixed and consistent** position across all screens.
+
+**Actual Result:**  
+The Home icon **changes position** in different sections, breaking UI alignment.
+
+**Screenshot Reference:**  [p2-ss-1](ScreenShot/p2-ss-1.jpg)
+
+---
+### **Bug-id : P2-BG-2**
+
+**Title:** Sales Description Page Not Loading After Recording Sales
+
+**Description:**  
+1. After recording a sale successfully, the entry appears correctly in **Sales History**.  
+2. When clicking any sales entry, the **Sales Detail** page opens but shows “Sales record not found”.  
+3. The system fails to load the sale description even though the sale history card displays the sale information.
+
+**Category:** Functional  
+**Severity:** High  
+**Priority:** P1  
+
+**Precondition:**  
+A sales entry must already be recorded in the **Record Sales** module.
+
+**Steps to Reproduce:**  
+1. Open **GTVL Promodizer Portal**  
+2. Navigate to **Record Sales**  
+3. Select a store → Click **Start Scanning** → Record a sale  
+4. After successful submission, go to **Sales History**  
+5. Click on the newly recorded sale entry  
+6. Observe the behavior on the **Sales Detail** page
+
+**Expected Result:**  
+1. Sales Detail page should display full sale information  
+   - Item details  
+   - Batch number  
+   - Store  
+   - Submission timestamp  
+2. Page should load without errors
+
+**Actual Result:**  
+1. Sales Detail page shows:  
+   **“Sales record not found — The requested sales submission could not be found or may have been deleted.”**  
+2. No sale description is displayed  
+3. User cannot view recorded sale details  
+
+**Screenshot Reference:**  [p2-ss-2](ScreenShot/p2-ss-2.png)
+
+---
