@@ -79,7 +79,7 @@ At least one search filter or field value must be applied in the SKUs list.
 
 **Screenshot Reference:**  [ss-2](ScreenShot/ss-2.png)
 
-
+---
 ### **Bug-id : BG-3**
 
 **Title:** Duplicate SKU Codes Allowed
@@ -112,8 +112,10 @@ At least one SKU must already exist with a valid SKU Code.
 
 **Screenshot Reference:**  [ss-3](ScreenShot/ss-3.png)
 
+---
 ## **Module 2 — Stores**
 
+---
 ### **Bug-id : BG-4**
 
 **Title:** Zip Code Accepts Letters
@@ -145,6 +147,7 @@ User must be on the **Add New Store** form.
 
 **Screenshot Reference:**  [ss-4](ScreenShot/ss-4.png)
 
+---
 ### **Bug-id : BG-5**
 
 **Title:** Phone Number Field Does Not Allow Deletion or Backspace
@@ -177,6 +180,7 @@ User must be on the **Add New Store** page with input typed in the phone number 
 
 **Screenshot Reference:**  [ss-5](ScreenShot/ss-5.png)
 
+---
 ### **Bug-id : BG-6**
 
 **Title:** Store Actions Not Working
@@ -209,6 +213,7 @@ Store records must be visible in the Store Directory table.
 
 **Screenshot Reference:**  [ss-6](ScreenShot/ss-6.png)
 
+---
 ### **Bug-id : BG-7**
 
 **Title:** Clear Filters Missing in Store Directory
@@ -240,6 +245,7 @@ At least one filter (Status, Assignment, or Search) must be applied in the Store
 
 **Screenshot Reference:**  [ss-7](ScreenShot/ss-7.png)
 
+---
 ### **Bug-id : BG-8**
 
 **Title:** Export Button Not Functional
@@ -271,8 +277,10 @@ Store Directory page must be loaded with store records visible.
 
 **Screenshot Reference:**  [ss-8](ScreenShot/ss-8.png)
 
+---
 ## **Module 3 — Supervisors**
 
+---
 ### **Bug-id : BG-9**
 
 **Title:** Supervisor Name Field Allows Duplicates and Numbers
@@ -307,6 +315,7 @@ At least one supervisor record should already exist for duplication to occur.
 
 **Screenshot Reference:**  [ss-9](ScreenShot/ss-9.png)
 
+---
 ### **Bug-id : BG-10**
 
 **Title:** Phone Number Field Does Not Allow Backspace or Deletion
@@ -340,8 +349,10 @@ User must be on the **Add New Supervisor** page with some characters already ent
 
 **Screenshot Reference:**  [ss-10](ScreenShot/ss-10.png)
 
+---
 ## **Module 4 — Promodizers**
 
+---
 ### **Bug-id : BG-11**
 
 **Title:** Promodizer Name Field Allows Duplicates and Numbers
