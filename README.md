@@ -387,6 +387,7 @@ At least one promodizer with the same name should already exist in the system.
 
 **Screenshot Reference:**  [ss-11](ScreenShot/ss-11.png)
 
+---
 ### **Bug-id : BG-12**
 
 **Title:** Create Promodizer Button Stuck on “Creating…”.
@@ -417,6 +418,7 @@ User must be on the **Add New Promodizer** form with incomplete or invalid input
 
 **Screenshot Reference:**  [ss-12](ScreenShot/ss-12.png)
 
+---
 ### **Bug-id : BG-13**
 
 **Title:** Cannot Update Promodizer Even With Valid Phone Number Format
@@ -455,6 +457,7 @@ User must open the **Edit Promodizer** form for any existing promodizer.
 
 **Screenshot Reference:**  [ss-13](ScreenShot/ss-13.png)
 
+---
 ### **Bug-id : BG-14**
 
 **Title:** Assigned Stores Popup — Redirect & Close Button Not Working
@@ -491,8 +494,10 @@ A promodizer must have at least one assigned store to display the popup.
 
 **Screenshot Reference:**  [ss-14](ScreenShot/ss-14.png)
 
+---
 ## **Module 5 — Dashboard**
 
+---
 ### **Bug-id : BG-15**
 
 **Title:** Dashboard Navigation Arrows Not Working
@@ -531,5 +536,7 @@ Clicking the arrow should navigate to the respective module page:
 2. Arrows are completely unresponsive
 
 **Screenshot Reference:**  [ss-15](ScreenShot/ss-15.png)
+
+---
 
 # **GTVL Management Portal — Bug Report**
