@@ -4,13 +4,15 @@
 
 # Create Pull request
 ---
+<h1 align="center"> Day-2 </h1>
+---
 # **GTVL Management Portal — Bug Report**
 * This document contains a consolidated list of UI and Functional defects identified during manual testing of the GTVL Management Portal.
 * The portal includes four modules: SKUs, Stores, Supervisors, and Promodizers.
 * The objective of this assignment was to test all modules thoroughly and document every issue clearly for developers.
-
+---
 ## **Module 1 — SKUs**
-
+---
 ### **Bug-id : BG-1**
 
 **Title:** SKU Actions Not Working
@@ -42,6 +44,8 @@ User must be on the SKUs List page in the GTVL Management Portal.
 2. No navigation or popup appears
 
 **Screenshot Reference:**  [ss-1](ScreenShot/ss-1.png)
+
+---
 
 ### **Bug-id : BG-2**
 
