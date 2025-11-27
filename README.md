@@ -5,6 +5,7 @@
 # Create Pull request
 ---
 <h1 align="center"> Day-2 </h1>
+[⬆ Back to Top](#gvtl-sales-analytics-dashboard--bug-report)
 
 ---
 # **GTVL Management Portal — Bug Report**
