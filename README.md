@@ -360,3 +360,217 @@ Submission always fails, and no feedback is stored.
 **Evidence:**  [p2-ss-6](ScreenShot/p2-ss-6.png)
 
 ---
+# **GTVL Sales Analytics Dashboard — Bug Report**
+
+---
+
+## **Module 1 — SKU Performance**
+
+---
+
+### **Bug-id : P3-BG-1**
+
+**Description:**  
+The **SKU Performance Analysis** screen contains multiple UI alignment issues:  
+1. The **Filters panel** is not aligned properly with the SKU table header section.  
+2. The **Total Quantity Sold (Min–Max)** input fields are uneven and visually misaligned.  
+These inconsistencies affect UI clarity and overall user experience.
+
+**Category:**  UI  
+
+**Severity:**  Low  
+
+**Evidence:**  [p3-ss-1](ScreenShot/p3-ss-1.png)
+
+---
+
+### **Bug-id : P3-BG-2**
+
+**Description:**  
+1. When a search input is applied in the SKU Performance module, a filter tag appears with a clear (X) button.  
+2. Clicking the **X** does not remove the applied search filter.  
+3. The search field also does not reset, and the results remain unchanged.
+
+**Category:**  Functional  
+
+**Severity:**  Low  
+
+**Evidence:**  [p3-ss-2](ScreenShot/p3-ss-2.png)
+
+---
+
+### **Bug-id : P3-BG-3**
+
+**Description:**  
+1. The **Clear All** button in the Filters panel does not reset the **Status** checkboxes.  
+2. Even after clicking **Clear All**, the **Active** checkbox remains selected.  
+3. Other filters may reset, but the status filter does not clear.
+
+**Category:**  Functional  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-3](ScreenShot/p3-ss-3.png)
+
+---
+
+### **Bug-id : P3-BG-4**
+
+**Description:**  
+1. When selecting **Custom Range** from the Date Range dropdown, no date picker or calendar modal opens.  
+2. User cannot select a start date or end date.  
+3. The Custom Range option becomes unusable and does not filter SKU data.
+
+**Category:**  Functional / UI 
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-4](ScreenShot/p3-ss-4.png)
+
+---
+
+### **Bug-id : P3-BG-5**
+
+**Description:**  
+1. The **Total Quantity Sold** filter allows users to enter negative numbers (e.g., -55 to -60).  
+2. Negative quantities make no logical sense in sales analytics.  
+3. System applies the filter and displays results with negative range.
+
+**Category:**  Functional / Validation 
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-5](ScreenShot/p3-ss-5.png)
+
+---
+
+### **Bug-id : P3-BG-6**
+
+**Description:**  
+1. When both **Active** and **Inactive** checkboxes are unchecked in the Status filter, the system shows a tag **“Status: None Selected”**.  
+2. System treats this as a filter condition instead of removing all filtering.  
+3. As a result, SKU table displays **“No SKUs Found”**, even though SKUs exist.
+
+**Category:**  Functional  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-6](ScreenShot/p3-ss-6.png)
+
+---
+
+### **Bug-id : P3-BG-7**
+
+**Description:**  
+1. When both Status options (Active + Inactive) are selected, the filter tag incorrectly shows: **“Status: Inactive Only”**.  
+2. This misrepresents the actual filter condition and causes confusion.
+
+**Category:**  Functional / UI 
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-7](ScreenShot/p3-ss-7.png)
+
+---
+
+## **Module 2 — Store Performance**
+
+---
+
+### **Bug-id : P3-BG-8**
+
+**Description:**  
+1. In the **Store Performance** module, some table columns are **not visible in desktop view** due to horizontal overflow.  
+2. Right-side columns like **SKUs Sold**, **Active Staff**, **Last Sale Date** become hidden.  
+3. All columns are visible only in mobile view (verified).
+
+**Category:**  UI / Layout  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-8](ScreenShot/p3-ss-8.png)
+
+---
+
+### **Bug-id : P3-BG-9**
+
+**Description:**  
+1. The **Sales Volume** filter accepts negative values in Min and Max fields.  
+2. Negative sales volume is logically invalid.  
+3. System still applies the filter and shows values like **Sales: -55 – 55**.
+
+**Category:**  Functional / Validation  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-9](ScreenShot/p3-ss-9.png)
+
+---
+
+## **Module 3 — Staff Performance**
+
+---
+
+### **Bug-id : P3-BG-10**
+
+**Description:**  
+1. Filter tags in Staff Performance show an **X** button to clear each filter.  
+2. Clicking the **X** does nothing.  
+3. Filters remain applied and table does not refresh.
+
+**Category:**  Functional  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-10](ScreenShot/p3-ss-10.png)
+
+---
+
+### **Bug-id : P3-BG-11**
+
+**Description:**  
+1. Clicking any employee row should open employee details.  
+2. Instead, page shows **“Staff Not Found”** with empty fields.  
+3. No employee data loads even when valid employees are selected.
+
+**Category:**  Functional  
+
+**Severity:**  High  
+
+**Evidence:**  [p3-ss-11](ScreenShot/p3-ss-11.png)
+
+---
+
+### **Bug-id : P3-BG-12**
+
+**Description:**  
+1. In Staff Performance, both Role checkboxes (Promodizer & Supervisor) are auto-checked.  
+2. Clicking **Clear All Filters** does **not** uncheck these boxes.  
+3. Role filter remains active and cannot be fully reset.
+
+**Category:**  Functional  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-12](ScreenShot/p3-ss-12.png)
+
+---
+
+## **Module 4 — Transaction History**
+
+---
+
+### **Bug-id : P3-BG-13**
+
+**Description:**  
+1. In Transaction History, **Store** and **Staff** checkbox filters do NOT reset after clicking **Clear All**.  
+2. All values remain checked.  
+3. Filter state cannot be reset without manually unchecking every entry.
+
+**Category:**  Functional  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-13](ScreenShot/p3-ss-13.png)
+
+---
