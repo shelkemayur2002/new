@@ -19,14 +19,11 @@
 1. In the SKU list, all action icons (View, Edit, Delete) are unresponsive.  
 2. Clicking any icon does not trigger any navigation or action.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-1](ScreenShot/p1-ss-1.png)
+**Evidence:**  [p1-ss-1](ScreenShot/p1-ss-1.png)
 
 ---
 
@@ -36,14 +33,11 @@ High
 1. The SKU list does not include a Clear Filters button.  
 2. Once a filter is applied, there is no way to reset the list to default view.
 
-**Category:**  
-UI  
+**Category:**  UI  
 
-**Severity:**  
-Medium  
+**Severity:**  Medium  
 
-**Evidence:**  
-[p1-ss-2](ScreenShot/p1-ss-2.png)
+**Evidence:**  [p1-ss-2](ScreenShot/p1-ss-2.png)
 
 ---
 
@@ -53,14 +47,11 @@ Medium
 1. System allows creation of a new SKU even when the SKU Code already exists.  
 2. No validation or warning is shown for duplicate SKU codes.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-3](ScreenShot/p1-ss-3.png)
+**Evidence:**  [p1-ss-3](ScreenShot/p1-ss-3.png)
 
 ---
 
@@ -73,14 +64,11 @@ High
 1. ZIP/Postal Code field accepts alphabetic characters.  
 2. No validation prevents the user from entering non-numeric data.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-4](ScreenShot/p1-ss-4.png)
+**Evidence:**  [p1-ss-4](ScreenShot/p1-ss-4.png)
 
 ---
 
@@ -91,14 +79,11 @@ High
 2. Backspace and delete keys do not work once input is typed.  
 3. User cannot correct or modify the phone number after typing.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-5](ScreenShot/p1-ss-5.png)
+**Evidence:**  [p1-ss-5](ScreenShot/p1-ss-5.png)
 
 ---
 
@@ -108,14 +93,11 @@ High
 1. All action icons (View, Edit, Delete) in the Store Directory do not work.  
 2. Clicking any icon does not trigger any response.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-6](ScreenShot/p1-ss-6.png)
+**Evidence:**  [p1-ss-6](ScreenShot/p1-ss-6.png)
 
 ---
 
@@ -125,14 +107,11 @@ High
 1. The Store Directory page has filters but no Clear Filters or Reset button.  
 2. Once filters are applied, the user cannot reset the view easily.
 
-**Category:**  
-UI  
+**Category:**  UI  
 
-**Severity:**  
-Medium  
+**Severity:**  Medium  
 
-**Evidence:**  
-[p1-ss-7](ScreenShot/p1-ss-7.png)
+**Evidence:**  [p1-ss-7](ScreenShot/p1-ss-7.png)
 
 ---
 
@@ -142,14 +121,11 @@ Medium
 1. The Export button on the Store Directory page is unresponsive.  
 2. Clicking the button does not trigger any file download or popup.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-Medium  
+**Severity:**  Medium  
 
-**Evidence:**  
-[p1-ss-8](ScreenShot/p1-ss-8.png)
+**Evidence:**  [p1-ss-8](ScreenShot/p1-ss-8.png)
 
 ---
 
@@ -164,14 +140,11 @@ Medium
 3. No validation exists to restrict the name field to alphabetic characters only.  
 4. This results in inconsistent and incorrect supervisor records.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-Medium  
+**Severity:**  Medium  
 
-**Evidence:**  
-[p1-ss-9](ScreenShot/p1-ss-9.png)
+**Evidence:**  [p1-ss-9](ScreenShot/p1-ss-9.png)
 
 ---
 
@@ -182,14 +155,11 @@ Medium
 2. User cannot edit or remove characters once typed.  
 3. Only page refresh resets the field.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-10](ScreenShot/p1-ss-10.png)
+**Evidence:**  [p1-ss-10](ScreenShot/p1-ss-10.png)
 
 ---
 
@@ -204,14 +174,11 @@ High
 3. No validation enforces alphabet-only names.  
 4. This results in incorrect and inconsistent employee records.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-Medium  
+**Severity:**  Medium  
 
-**Evidence:**  
-[p1-ss-11](ScreenShot/p1-ss-11.png)
+**Evidence:**  [p1-ss-11](ScreenShot/p1-ss-11.png)
 
 ---
 
@@ -221,14 +188,11 @@ Medium
 1. The “Create Promodizer” button shows a loading state (“Creating…”) even before clicking.  
 2. Invalid data still triggers the loading state.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-12](ScreenShot/p1-ss-12.png)
+**Evidence:**  [p1-ss-12](ScreenShot/p1-ss-12.png)
 
 ---
 
@@ -239,14 +203,11 @@ High
 2. The system incorrectly flags the input as invalid.  
 3. The Update Promodizer button stays disabled, preventing any updates.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-13](ScreenShot/p1-ss-13.png)
+**Evidence:**  [p1-ss-13](ScreenShot/p1-ss-13.png)
 
 ---
 
@@ -257,14 +218,11 @@ High
 2. The close (X) button on the popup is non-functional.  
 3. User is forced to refresh the page to exit the popup.
 
-**Category:**  
-Functional / UI  
+**Category:**  Functional / UI  
 
-**Severity:**  
-High  
+**Severity:**  High  
 
-**Evidence:**  
-[p1-ss-14](ScreenShot/p1-ss-14.png)
+**Evidence:**  [p1-ss-14](ScreenShot/p1-ss-14.png)
 
 ---
 
@@ -278,13 +236,10 @@ High
 2. Clicking these arrows does nothing.  
 3. No page navigation or action is triggered.
 
-**Category:**  
-Functional  
+**Category:**  Functional  
 
-**Severity:**  
-Medium  
+**Severity:**  Medium  
 
-**Evidence:**  
-[p1-ss-15](ScreenShot/p1-ss-15.png)
+**Evidence:**  [p1-ss-15](ScreenShot/p1-ss-15.png)
 
 ---
