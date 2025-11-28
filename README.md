@@ -730,6 +730,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-12](ScreenShot/p3-ss-12.png)
 
+[↩️](#top)
 ---
 
 ## **Module 4 — Transaction History**
@@ -752,6 +753,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-13](ScreenShot/p3-ss-13.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-14**
@@ -769,6 +771,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-14](ScreenShot/p3-ss-14.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-15**
@@ -786,6 +789,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-15](ScreenShot/p3-ss-15.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-16**
@@ -804,6 +808,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-16](ScreenShot/p3-ss-16.png)
 
+[↩️](#top)
 ---
 <h1 align="center">⭐ Day-4 ⭐</h1>
 <a id="supervisor-portal"></a>
@@ -828,6 +833,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p4-ss-1](ScreenShot/p4-ss-1.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-2**
 
@@ -849,6 +855,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-2](ScreenShot/p4-ss-2.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-3**
 
@@ -867,6 +874,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-3](ScreenShot/p4-ss-3.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-4**
 
@@ -884,6 +892,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-4](ScreenShot/p4-ss-4.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-5**
 
@@ -901,6 +910,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-5](ScreenShot/p4-ss-5.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-6**
 
@@ -918,6 +928,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-6](ScreenShot/p4-ss-6.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-7**
 
@@ -935,6 +946,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-7](ScreenShot/p4-ss-7.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-8**
 
@@ -953,6 +965,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-8](ScreenShot/p4-ss-8.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-9**
 
@@ -970,6 +983,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-9](ScreenShot/p4-ss-9.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P4-BG-10**
@@ -989,6 +1003,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-10](ScreenShot/p4-ss-10.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-11**
 
@@ -1008,6 +1023,7 @@ Button appears improperly placed on the right side, visually detached from relev
 
 **Evidence:**  [p4-ss-11](ScreenShot/p4-ss-11.png)
 
+[↩️](#top)
 ---
 ### **🐞Bug-id : P4-BG-12**
 
@@ -1024,5 +1040,6 @@ Button appears improperly placed on the right side, visually detached from relev
 
 **Evidence:** [p4-ss-12](ScreenShot/p4-ss-12.png)
 
+[↩️](#top)
 ---
 
