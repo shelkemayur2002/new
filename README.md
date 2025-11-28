@@ -257,8 +257,6 @@
 
 # **GTVL Promodizer Portal — Bug Report**
 
-# **GTVL Promodizer Portal — Bug Report**
-
 ---
 ## **Module 1 — Dashboard**
 ---
@@ -371,7 +369,7 @@ Submission always fails, and no feedback is stored.
 **Evidence:**  [p2-ss-6](ScreenShot/p2-ss-6.png)
 
 ---
-<a name="sales-analytics-section"></a>
+<a id="sales-analytics-portal"></a>
 
 # **GTVL Sales Analytics Dashboard — Bug Report**
 
