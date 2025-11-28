@@ -46,10 +46,8 @@ Each bug in this document is documented using the following fields:
 ---
 ## **Module 1 — SKUs**
 ---
-:
 
-🐞
-###  **  Bug-id : P1-BG-1**
+###  **🐞Bug-id : P1-BG-1**
 
 **Description:**  
 1. In the SKU list, all action icons (View, Edit, Delete) are unresponsive.  
@@ -63,8 +61,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-🐞
-### **Bug-id : P1-BG-2**
+### **🐞Bug-id : P1-BG-2**
 
 **Description:**  
 1. The SKU list does not include a Clear Filters button.  
@@ -77,8 +74,8 @@ Each bug in this document is documented using the following fields:
 **Evidence:**  [p1-ss-2](ScreenShot/p1-ss-2.png)
 
 ---
-🐞
-### **Bug-id : P1-BG-3**
+
+### **🐞Bug-id : P1-BG-3**
 
 **Description:**  
 1. System allows creation of a new SKU even when the SKU Code already exists.  
@@ -94,8 +91,8 @@ Each bug in this document is documented using the following fields:
 
 ## **Module 2 — Stores**
 ---
-🐞
-### **Bug-id : P1-BG-4**
+
+### **🐞Bug-id : P1-BG-4**
 
 **Description:**  
 1. ZIP/Postal Code field accepts alphabetic characters.  
@@ -108,8 +105,7 @@ Each bug in this document is documented using the following fields:
 **Evidence:**  [p1-ss-4](ScreenShot/p1-ss-4.png)
 
 ---
-🐞
-### **Bug-id : P1-BG-5**
+### **🐞Bug-id : P1-BG-5**
 
 **Description:**  
 1. When entering a phone number in the Create Store form, the field does not allow deleting characters.  
@@ -123,8 +119,7 @@ Each bug in this document is documented using the following fields:
 **Evidence:**  [p1-ss-5](ScreenShot/p1-ss-5.png)
 
 ---
-🐞
-### **Bug-id : P1-BG-6**
+### **🐞Bug-id : P1-BG-6**
 
 **Description:**  
 1. All action icons (View, Edit, Delete) in the Store Directory do not work.  
@@ -138,7 +133,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-7**
+### **🐞Bug-id : P1-BG-7**
 
 **Description:**  
 1. The Store Directory page has filters but no Clear Filters or Reset button.  
@@ -152,7 +147,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-8**
+### **🐞Bug-id : P1-BG-8**
 
 **Description:**  
 1. The Export button on the Store Directory page is unresponsive.  
@@ -169,7 +164,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 3 — Supervisors**
 ---
 
-### **Bug-id : P1-BG-9**
+### **🐞Bug-id : P1-BG-9**
 
 **Description:**  
 1. The system allows creating multiple supervisors with the same name.  
@@ -185,7 +180,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-10**
+### **🐞Bug-id : P1-BG-10**
 
 **Description:**  
 1. While creating a new supervisor, the phone number input field stops accepting backspace/delete after entering partial input (e.g., “(555)”).  
@@ -203,7 +198,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 4 — Promodizers**
 ---
 
-### **Bug-id : P1-BG-11**
+### **🐞Bug-id : P1-BG-11**
 
 **Description:**  
 1. The system allows creating promodizers with duplicate names.  
@@ -219,7 +214,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-12**
+### **🐞Bug-id : P1-BG-12**
 
 **Description:**  
 1. The “Create Promodizer” button shows a loading state (“Creating…”) even before clicking.  
@@ -233,7 +228,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-13**
+### **🐞Bug-id : P1-BG-13**
 
 **Description:**  
 1. When editing a promodizer, the phone number field remains in an error state even when entering a valid format (e.g., +1-555-0301).  
@@ -248,7 +243,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-14**
+### **🐞Bug-id : P1-BG-14**
 
 **Description:**  
 1. The external-link icon in each store card does not redirect to the store details page.  
@@ -266,7 +261,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 5 — Dashboard**
 ---
 
-### **Bug-id : P1-BG-15**
+### **🐞Bug-id : P1-BG-15**
 
 **Description:**  
 1. On the Management Dashboard, each module card contains a right-arrow icon intended for quick navigation.  
@@ -291,7 +286,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 1 — Dashboard**
 ---
 
-### **Bug-id : P2-BG-1**
+### **🐞Bug-id : P2-BG-1**
 
 **Description:**  
 1. The Home button icon (top-right corner) is not fixed in a consistent position.  
@@ -309,7 +304,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 2 — Sales History**
 ---
 
-### **Bug-id : P2-BG-2**
+### **🐞Bug-id : P2-BG-2**
 
 **Description:**  
 1. After recording a sale successfully, the entry appears correctly in Sales History.  
@@ -327,7 +322,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 3 — Attendance History**
 ---
 
-### **Bug-id : P2-BG-3**
+### **🐞Bug-id : P2-BG-3**
 
 **Description:**  
 1. In the Attendance History Calendar View, all dates for the entire month are listed under the Sunday column.  
@@ -346,7 +341,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 4 — My Profile**
 ---
 
-### **Bug-id : P2-BG-4**
+### **🐞Bug-id : P2-BG-4**
 
 **Description:**  
 1. The My Profile page displays user information only on the left portion of the page.  
@@ -362,7 +357,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P2-BG-5**
+### **🐞Bug-id : P2-BG-5**
 
 **Description:**  
 The sidebar navigation in the Promodizer Portal does not correctly update the active state when moving between modules.  
@@ -386,7 +381,7 @@ This makes the sidebar visually inconsistent and confusing.
 
 ---
 
-### **Bug-id : P2-BG-6**
+### **🐞Bug-id : P2-BG-6**
 
 **Description:**  
 The feedback form does not successfully save or submit any feedback.  
