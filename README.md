@@ -1,6 +1,7 @@
 # ERP SYSTEM
 ---
 <h1 align="center"> Day-1 </h1>
+
 [Jump to Sales Analytics Bug Report](#sales-analytics-section)
 
 # Create Pull request
