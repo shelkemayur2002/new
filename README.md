@@ -635,3 +635,133 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p3-ss-16](ScreenShot/p3-ss-16.png)
 
 ---
+<a id="supervisor-portal"></a>
+
+# **gtvl-supervisor-portal — Bug Report**
+
+---
+
+### **Bug-id : P4-BG-1**
+
+**Description:**  
+1. Even after marking attendance as **Present** in Attendance Management,  
+2. The Dashboard still shows **Not Marked** for Today’s Attendance.  
+3. System does not update dashboard status after marking attendance.
+
+**Expected Result:** Dashboard should display **Present** once attendance is marked.  
+**Actual Result:** Dashboard continues showing **Not Marked** even after attendance is recorded.
+
+**Category:**  Functional  
+
+**Severity:**  High  
+
+**Evidence:**  [p4-ss-1](ScreenShot/p4-ss-1.png)
+
+---
+### **Bug-id : P4-BG-2**
+
+**Description:**  
+1. The order of menu items in the **left sidebar** does not match the order of items shown in the **Quick Actions** section.  
+2. Sidebar: Dashboard → Record Sales → Sales History → Attendance → My Team → Add Promodizer → My Profile  
+3. Quick Actions: Record Sales → Mark Attendance → View Team → Sales History  
+4. The mismatch creates UI inconsistency and confusion about navigation hierarchy.
+
+**Expected Result:**  
+Sidebar order and Quick Actions order should follow a consistent logical sequence.
+
+**Actual Result:**  
+Sidebar and Quick Actions display items in different, unaligned orders.
+
+**Category:**  UI  
+
+**Severity:**  Low  
+
+**Evidence:**  [p4-ss-2](ScreenShot/p4-ss-2.png)
+
+---
+### **Bug-id : P4-BG-3**
+
+**Description:**  
+1. In the Attendance module, users can only **Mark Attendance (Clock In)** but there is **no option to Clock Out**.  
+2. As a result, the **Clock Out Time** field always displays a dash (-).  
+3. This prevents recording full attendance data for the day.
+
+**Expected Result:** User should be able to Clock Out, and the Clock Out Time should be recorded properly.
+
+**Actual Result:** No Clock Out feature exists, and Clock Out Time remains blank.
+
+**Category:**  Functional  
+
+**Severity:**  High  
+
+**Evidence:**  [p4-ss-3](ScreenShot/p4-ss-3.png)
+
+---
+### **Bug-id : P4-BG-4**
+
+**Description:**  
+1. Clicking any Submission ID in Sales History should open the detailed sales record.  
+2. Instead, clicking redirects to a "Record Not Found" page.  
+3. The system does not pass the submission ID in the URL, causing the detail page to fail.
+
+**Expected Result:** Sales Record Detail page should open and show full submission details.  
+**Actual Result:** Page shows “Record Not Found — No submission ID provided in the URL.”
+
+**Category:**  Functional  
+
+**Severity:**  High  
+
+**Evidence:**  [p4-ss-4](ScreenShot/p4-ss-4.png)
+
+---
+### **Bug-id : P4-BG-5**
+
+**Description:**  
+1. After adding a promodizer, the Supervisor cannot perform any management actions.  
+2. No options/buttons are available to **Add**, **Edit**, or **Delete** a promodizer.  
+3. The My Team page only displays promodizer cards without any action controls.
+
+**Expected Result:** Supervisor should see options to Add, Edit, or Delete promodizers on the My Team page.  
+**Actual Result:** No management options are visible; supervisor cannot modify promodizers.
+
+**Category:**  Functional  
+
+**Severity:**  High  
+
+**Evidence:**  [p4-ss-5](ScreenShot/p4-ss-5.png)
+
+---
+### **Bug-id : P4-BG-6**
+
+**Description:**  
+1. The Phone Number field on the Add Promodizer page accepts alphabetic characters.  
+2. User can enter letters (e.g., "Mayur") instead of digits.  
+3. No validation is applied to restrict input to numeric phone number format.
+
+**Expected Result:** Phone Number field should accept only numeric values and follow a valid phone format.  
+**Actual Result:** Field allows alphabetic characters without validation.
+
+**Category:**  Functional / Validation  
+
+**Severity:**  High  
+
+**Evidence:**  [p4-ss-6](ScreenShot/p4-ss-6.png)
+
+---
+### **Bug-id : P4-BG-7**
+
+**Description:**  
+1. In the My Team module, store and status filters can be applied but cannot be cleared.  
+2. There is **no Clear Filters button** to reset selections.  
+3. User must manually change dropdowns each time, causing poor usability.
+
+**Expected Result:** A Clear Filters option should reset store and status filters to default.  
+**Actual Result:** No Clear Filters option is available; filters stay applied until manually changed.
+
+**Category:**  Functional / UI  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p4-ss-7](ScreenShot/p4-ss-7.png)
+
+---
