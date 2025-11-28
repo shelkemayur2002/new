@@ -48,7 +48,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 1 — SKUs**
 ---
 
-### **Bug-id : P1-BG-1**
+### **🐞Bug-id : P1-BG-1**
 
 **Description:**  
 1. In the SKU list, all action icons (View, Edit, Delete) are unresponsive.  
@@ -65,7 +65,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-2**
+### **🐞Bug-id : P1-BG-2**
 
 **Description:**  
 1. The SKU list does not include a Clear Filters button.  
@@ -82,7 +82,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-3**
+### **🐞Bug-id : P1-BG-3**
 
 **Description:**  
 1. System allows creation of a new SKU even when the SKU Code already exists.  
@@ -102,7 +102,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 2 — Stores**
 ---
 
-### **Bug-id : P1-BG-4**
+### **🐞Bug-id : P1-BG-4**
 
 **Description:**  
 1. ZIP/Postal Code field accepts alphabetic characters.  
@@ -119,7 +119,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-5**
+### **🐞Bug-id : P1-BG-5**
 
 **Description:**  
 1. When entering a phone number in the Create Store form, the field does not allow deleting characters.  
@@ -137,7 +137,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-6**
+### **🐞Bug-id : P1-BG-6**
 
 **Description:**  
 1. All action icons (View, Edit, Delete) in the Store Directory do not work.  
@@ -154,7 +154,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-7**
+### **🐞Bug-id : P1-BG-7**
 
 **Description:**  
 1. The Store Directory page has filters but no Clear Filters or Reset button.  
@@ -171,7 +171,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-8**
+### **🐞Bug-id : P1-BG-8**
 
 **Description:**  
 1. The Export button on the Store Directory page is unresponsive.  
@@ -191,7 +191,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 3 — Supervisors**
 ---
 
-### **Bug-id : P1-BG-9**
+### **🐞Bug-id : P1-BG-9**
 
 **Description:**  
 1. The system allows creating multiple supervisors with the same name.  
@@ -209,7 +209,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-10**
+### **🐞Bug-id : P1-BG-10**
 
 **Description:**  
 1. While creating a new supervisor, the phone number input field stops accepting backspace/delete after entering partial input (e.g., “(555)”).  
@@ -229,7 +229,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 4 — Promodizers**
 ---
 
-### **Bug-id : P1-BG-11**
+### **🐞Bug-id : P1-BG-11**
 
 **Description:**  
 1. The system allows creating promodizers with duplicate names.  
@@ -247,7 +247,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-12**
+### **🐞Bug-id : P1-BG-12**
 
 **Description:**  
 1. The “Create Promodizer” button shows a loading state (“Creating…”) even before clicking.  
@@ -264,7 +264,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-13**
+### **🐞Bug-id : P1-BG-13**
 
 **Description:**  
 1. When editing a promodizer, the phone number field remains in an error state even when entering a valid format (e.g., +1-555-0301).  
@@ -281,7 +281,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P1-BG-14**
+### **🐞Bug-id : P1-BG-14**
 
 **Description:**  
 1. Assigned Stores popup external-link does not redirect to store details.  
@@ -301,7 +301,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 5 — Dashboard**
 ---
 
-### **Bug-id : P1-BG-15**
+### **🐞Bug-id : P1-BG-15**
 
 **Description:**  
 1. Dashboard module cards contain right-arrow icon for quick navigation.  
@@ -328,7 +328,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 1 — Dashboard**
 ---
 
-### **Bug-id : P2-BG-1**
+### **🐞Bug-id : P2-BG-1**
 
 **Description:**  
 1. The Home button icon is not fixed in a consistent position.  
@@ -348,7 +348,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 2 — Sales History**
 ---
 
-### **Bug-id : P2-BG-2**
+### **🐞Bug-id : P2-BG-2**
 
 **Description:**  
 1. After recording a sale, the entry appears in Sales History.  
@@ -368,7 +368,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 3 — Attendance History**
 ---
 
-### **Bug-id : P2-BG-3**
+### **🐞Bug-id : P2-BG-3**
 
 **Description:**  
 1. Calendar View shows all dates under Sunday column.  
@@ -388,7 +388,7 @@ Each bug in this document is documented using the following fields:
 ## **Module 4 — My Profile**
 ---
 
-### **Bug-id : P2-BG-4**
+### **🐞Bug-id : P2-BG-4**
 
 **Description:**  
 1. My Profile page uses only the left area of the screen.  
@@ -405,7 +405,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
-### **Bug-id : P2-BG-5**
+### **🐞Bug-id : P2-BG-5**
 
 **Description:**  
 Sidebar navigation does not update active state correctly.
@@ -421,7 +421,7 @@ Sidebar navigation does not update active state correctly.
 
 ---
 
-### **Bug-id : P2-BG-6**
+### **🐞Bug-id : P2-BG-6**
 
 **Description:**  
 Feedback form does not successfully submit any feedback.
@@ -446,7 +446,7 @@ Feedback form does not successfully submit any feedback.
 ## **Module 1 — SKU Performance**
 ---
 
-### **Bug-id : P3-BG-1**
+### **🐞Bug-id : P3-BG-1**
 
 **Description:**  
 Filters panel and Min–Max input fields are misaligned.
@@ -462,7 +462,7 @@ Filters panel and Min–Max input fields are misaligned.
 
 ---
 
-### **Bug-id : P3-BG-2**
+### **🐞Bug-id : P3-BG-2**
 
 **Description:**  
 Search filter clear (X) button does not remove applied filter.
@@ -478,7 +478,7 @@ Search filter clear (X) button does not remove applied filter.
 
 ---
 
-### **Bug-id : P3-BG-3**
+### **🐞Bug-id : P3-BG-3**
 
 **Description:**  
 Clear All button does not reset Status filters (Active remains checked).
@@ -494,7 +494,7 @@ Clear All button does not reset Status filters (Active remains checked).
 
 ---
 
-### **Bug-id : P3-BG-4**
+### **🐞Bug-id : P3-BG-4**
 
 **Description:**  
 Custom Range does not open a date picker.
@@ -510,7 +510,7 @@ Custom Range does not open a date picker.
 
 ---
 
-### **Bug-id : P3-BG-5**
+### **🐞Bug-id : P3-BG-5**
 
 **Description:**  
 Total Quantity Sold filter accepts negative values.
@@ -526,7 +526,7 @@ Total Quantity Sold filter accepts negative values.
 
 ---
 
-### **Bug-id : P3-BG-6**
+### **🐞Bug-id : P3-BG-6**
 
 **Description:**  
 When both Active & Inactive are unchecked, system shows “Status: None Selected” and returns no results.
@@ -542,7 +542,7 @@ When both Active & Inactive are unchecked, system shows “Status: None Selected
 
 ---
 
-### **Bug-id : P3-BG-7**
+### **🐞Bug-id : P3-BG-7**
 
 **Description:**  
 When both statuses are selected, tag incorrectly shows “Inactive Only”.
@@ -561,7 +561,7 @@ When both statuses are selected, tag incorrectly shows “Inactive Only”.
 ## **Module 2 — Store Performance**
 ---
 
-### **Bug-id : P3-BG-8**
+### **🐞Bug-id : P3-BG-8**
 
 **Description:**  
 Some table columns are not visible in desktop view due to overflow.
@@ -577,7 +577,7 @@ Some table columns are not visible in desktop view due to overflow.
 
 ---
 
-### **Bug-id : P3-BG-9**
+### **🐞Bug-id : P3-BG-9**
 
 **Description:**  
 Sales Volume filter accepts negative values.
@@ -596,7 +596,7 @@ Sales Volume filter accepts negative values.
 ## **Module 3 — Staff Performance**
 ---
 
-### **Bug-id : P3-BG-10**
+### **🐞Bug-id : P3-BG-10**
 
 **Description:**  
 Filter tag X button does not remove filters.
@@ -612,7 +612,7 @@ Filter tag X button does not remove filters.
 
 ---
 
-### **Bug-id : P3-BG-11**
+### **🐞Bug-id : P3-BG-11**
 
 **Description:**  
 Employee detail page shows “Staff Not Found”.
@@ -628,7 +628,7 @@ Employee detail page shows “Staff Not Found”.
 
 ---
 
-### **Bug-id : P3-BG-12**
+### **🐞Bug-id : P3-BG-12**
 
 **Description:**  
 Clear All does not reset Role filters.
@@ -647,7 +647,7 @@ Clear All does not reset Role filters.
 ## **Module 4 — Transaction History**
 ---
 
-### **Bug-id : P3-BG-13**
+### **🐞Bug-id : P3-BG-13**
 
 **Description:**  
 Store and Staff checkbox filters do not reset when Clear All is clicked.
@@ -663,7 +663,7 @@ Store and Staff checkbox filters do not reset when Clear All is clicked.
 
 ---
 
-### **Bug-id : P3-BG-14** 
+### **🐞Bug-id : P3-BG-14** 
 
 **Description:**  
 Total Quantity Range filter allows negative inputs.
@@ -679,7 +679,7 @@ Total Quantity Range filter allows negative inputs.
 
 ---
 
-### **Bug-id : P3-BG-15** 
+### **🐞Bug-id : P3-BG-15** 
 
 **Description:**  
 Clear All text appears without button structure.
@@ -695,7 +695,7 @@ Clear All text appears without button structure.
 
 ---
 
-### **Bug-id : P3-BG-16** 
+### **🐞Bug-id : P3-BG-16** 
 
 **Description:**  
 Role & Submission ID headers have different styling and missing sorting arrows.
@@ -717,7 +717,7 @@ Role & Submission ID headers have different styling and missing sorting arrows.
 
 ---
 
-### **Bug-id : P4-BG-1**
+### **🐞Bug-id : P4-BG-1**
 
 **Description:**  
 1. Even after marking attendance as **Present** in Attendance Management,  
@@ -734,7 +734,7 @@ Role & Submission ID headers have different styling and missing sorting arrows.
 **Evidence:**  [p4-ss-1](ScreenShot/p4-ss-1.png)
 
 ---
-### **Bug-id : P4-BG-2**
+### **🐞Bug-id : P4-BG-2**
 
 **Description:**  
 1. The order of menu items in the **left sidebar** does not match the order of items shown in the **Quick Actions** section.  
@@ -755,7 +755,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-2](ScreenShot/p4-ss-2.png)
 
 ---
-### **Bug-id : P4-BG-3**
+### **🐞Bug-id : P4-BG-3**
 
 **Description:**  
 1. In the Attendance module, users can only **Mark Attendance (Clock In)** but there is **no option to Clock Out**.  
@@ -773,7 +773,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-3](ScreenShot/p4-ss-3.png)
 
 ---
-### **Bug-id : P4-BG-4**
+### **🐞Bug-id : P4-BG-4**
 
 **Description:**  
 1. Clicking any Submission ID in Sales History should open the detailed sales record.  
@@ -790,7 +790,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-4](ScreenShot/p4-ss-4.png)
 
 ---
-### **Bug-id : P4-BG-5**
+### **🐞Bug-id : P4-BG-5**
 
 **Description:**  
 1. After adding a promodizer, the Supervisor cannot perform any management actions.  
@@ -807,7 +807,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-5](ScreenShot/p4-ss-5.png)
 
 ---
-### **Bug-id : P4-BG-6**
+### **🐞Bug-id : P4-BG-6**
 
 **Description:**  
 1. The Phone Number field on the Add Promodizer page accepts alphabetic characters.  
@@ -824,7 +824,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-6](ScreenShot/p4-ss-6.png)
 
 ---
-### **Bug-id : P4-BG-7**
+### **🐞Bug-id : P4-BG-7**
 
 **Description:**  
 1. In the My Team module, store and status filters can be applied but cannot be cleared.  
