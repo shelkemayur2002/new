@@ -1,7 +1,7 @@
 # ERP SYSTEM
 ---
 <h1 align="center"> Day-1 </h1>
-[Go to Sales Analytics Bug Report] (#gtvl-sales-analytics-dashboard--bug-report)
+[Go to Sales Analytics Bug Report](# **GTVL Sales Analytics Dashboard — Bug Report**)
 
 # Create Pull request
 ---
