@@ -12,14 +12,7 @@
 [Jump to Supervisor Portal](#supervisor-portal)
 
 ---
-
----
-<h1 align="center"> Day-2 </h1>
-
----
-<a id="promodizer-portal"></a>
-# **GTVL Promodizer Portal — Bug Report**
-
+#<a id="management-portal"></a>
 # **GTVL Management Portal — Bug Report**
 
 ---
