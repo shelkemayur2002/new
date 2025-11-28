@@ -32,11 +32,13 @@ Each bug in this document is documented using the following fields:
 [Supervisor Portal](#supervisor-portal)
 
 ---
-<h1 align="center"> Day-1 </h1>
+<h1 align="center">⭐ Day-1 ⭐</h1>
 
 ## Generate A Pull Request
 
----
+------
+<h1 align="center">⭐ Day-2 ⭐</h1>
+
 <a id="management-portal"></a>
 
 # **GTVL Management Portal — Bug Report**
@@ -275,7 +277,7 @@ Each bug in this document is documented using the following fields:
 **Evidence:**  [p1-ss-15](ScreenShot/p1-ss-15.png)
 
 ---
-<h1 align="center"> Day-3 </h1>
+<h1 align="center">⭐ Day-3 ⭐</h1>
 
 ---
 <a id="promodizer-portal"></a>
