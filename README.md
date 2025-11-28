@@ -1,7 +1,7 @@
 # ERP SYSTEM
 ---
 <h1 align="center"> Day-1 </h1>
-[Jump to Sales Analytics Bug Report](#sales-analytics-bug-report)
+[Jump to Sales Analytics Bug Report](#sales-analytics-section)
 
 # Create Pull request
 ---
@@ -361,7 +361,9 @@ Submission always fails, and no feedback is stored.
 **Evidence:**  [p2-ss-6](ScreenShot/p2-ss-6.png)
 
 ---
-<h1 id="sales-analytics-bug-report">GTVL Sales Analytics Dashboard — Bug Report</h1>
+<a name="sales-analytics-section"></a>
+# **GTVL Sales Analytics Dashboard — Bug Report**
+
 
 ---
 
