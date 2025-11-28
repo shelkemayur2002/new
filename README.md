@@ -1,6 +1,7 @@
 # ERP SYSTEM
 ---
 <h1 align="center"> Day-1 </h1>
+[Go to Sales Analytics Bug Report](#gtvl-sales-analytics-dashboard--bug-report)
 
 # Create Pull request
 ---
@@ -572,5 +573,54 @@ These inconsistencies affect UI clarity and overall user experience.
 **Severity:**  Medium  
 
 **Evidence:**  [p3-ss-13](ScreenShot/p3-ss-13.png)
+
+---
+### **Bug-id : P3-BG-14** 
+
+**Description:**  
+1. The Total Quantity Range filter in Transaction History allows negative numbers (e.g., -555, -66).  
+2. System accepts and applies these invalid values when filtering.
+
+**Expected Result:** Total Quantity Range should not accept negative values.  
+**Actual Result:** System accepts negative values and applies the filter.
+
+**Category:**  Functional / Validation  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-14](ScreenShot/p3-ss-14.png)
+
+---
+### **Bug-id : P3-BG-15** 
+
+**Description:**  
+1. The **Clear All** text appears without any button styling or visible button structure.  
+2. Its position is incorrect — it is placed at the top instead of below the **Apply Filters** button.
+
+**Expected Result:** Clear All should appear as a properly styled button placed below Apply Filters.  
+**Actual Result:** Clear All appears as plain text and is positioned incorrectly at the top.
+
+**Category:**  UI  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-15](ScreenShot/p3-ss-15.png)
+
+---
+### **Bug-id : P3-BG-16** 
+
+**Description:**  
+1. The table headers **Role** and **Submission ID** have a different text style compared to other table headers.  
+2. The **sorting arrows (up/down)** seen on other columns are missing for these two headers.  
+3. This causes UI inconsistency within the Transaction History table.
+
+**Expected Result:** Role and Submission ID headers should match other headers and show sorting arrows.  
+**Actual Result:** Headers have different styling and no sorting arrows are displayed.
+
+**Category:**  UI  
+
+**Severity:**  Medium  
+
+**Evidence:**  [p3-ss-16](ScreenShot/p3-ss-16.png)
 
 ---
