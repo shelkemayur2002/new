@@ -739,7 +739,8 @@ These inconsistencies affect UI clarity and overall user experience.
 ## **Module 3 — Staff Performance**
 
 ---
-
+<a id="P3-BG-10"></a>
+ 
 ### **🐞Bug-id : P3-BG-10**
 
 **Description:**  
@@ -757,8 +758,10 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p3-ss-10](ScreenShot/p3-ss-10.png)
 
 [↩️](#top)
----
 
+---
+<a id="P3-BG-11"></a>
+ 
 ### **🐞Bug-id : P3-BG-11**
 
 **Description:**  
@@ -776,8 +779,10 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p3-ss-11](ScreenShot/p3-ss-11.png)
 
 [↩️](#top)
----
 
+---
+<a id="P3-BG-12"></a>
+ 
 ### **🐞Bug-id : P3-BG-12**
 
 **Description:**  
@@ -795,12 +800,14 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p3-ss-12](ScreenShot/p3-ss-12.png)
 
 [↩️](#top)
+
 ---
 
 ## **Module 4 — Transaction History**
 
 ---
-
+<a id="P3-BG-13"></a>
+ 
 ### **🐞Bug-id : P3-BG-13**
 
 **Description:**  
@@ -818,7 +825,10 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p3-ss-13](ScreenShot/p3-ss-13.png)
 
 [↩️](#top)
+
 ---
+<a id="P3-BG-14"></a>
+ 
 
 ### **🐞Bug-id : P3-BG-14**
 
@@ -836,8 +846,10 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p3-ss-14](ScreenShot/p3-ss-14.png)
 
 [↩️](#top)
----
 
+---
+<a id="P3-BG-15"></a>
+ 
 ### **🐞Bug-id : P3-BG-15**
 
 **Description:**  
@@ -854,8 +866,10 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p3-ss-15](ScreenShot/p3-ss-15.png)
 
 [↩️](#top)
----
 
+---
+<a id="P3-BG-16"></a>
+ 
 ### **🐞Bug-id : P3-BG-16**
 
 **Description:**  
@@ -873,6 +887,36 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p3-ss-16](ScreenShot/p3-ss-16.png)
 
 [↩️](#top)
+
+---
+<a id="P3-BG-17"></a>
+
+### **🐞Bug-id : P3-BG-17**
+
+**Description:**  
+1. The **Stores** multi-select filter in Transaction History displays **multiple duplicate entries** for several stores.  
+2. Stores like **Beverly Hills Grocery**, **Downtown Market NYC**, and **Lincoln Park Superstore** appear repeatedly in the dropdown list.  
+3. The list becomes unnecessarily long and confusing due to repeated values.
+
+**Expected Result:**  
+Store filter should display a **unique list of store names**, with no repeated entries.
+
+**Actual Result:**  
+Same store appears multiple times in the dropdown:
+- Beverly Hills Grocery (3 times)  
+- Downtown Market NYC (7+ times)  
+- Lincoln Park Superstore (3 times)  
+- Others also repeated  
+
+**Category:** Functional / Data Issue  
+
+**Severity:** Medium  
+
+**Evidence:**  
+[p3-ss-17](ScreenShot/p3-ss-17.png)
+
+[↩️](#top)
+
 ---
 <h1 align="center">⭐ Day-4 ⭐</h1>
 <a id="supervisor-portal"></a>
@@ -880,7 +924,8 @@ These inconsistencies affect UI clarity and overall user experience.
 # **gtvl-supervisor-portal — Bug Report**
 
 ---
-
+<a id="P4-BG-1"></a>
+ 
 ### **🐞Bug-id : P4-BG-1**
 
 **Description:**  
@@ -898,7 +943,10 @@ These inconsistencies affect UI clarity and overall user experience.
 **Evidence:**  [p4-ss-1](ScreenShot/p4-ss-1.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-2"></a>
+ 
 ### **🐞Bug-id : P4-BG-2**
 
 **Description:**  
@@ -920,7 +968,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-2](ScreenShot/p4-ss-2.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-3"></a>
+ 
 ### **🐞Bug-id : P4-BG-3**
 
 **Description:**  
@@ -939,7 +990,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-3](ScreenShot/p4-ss-3.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-4"></a>
+ 
 ### **🐞Bug-id : P4-BG-4**
 
 **Description:**  
@@ -957,7 +1011,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-4](ScreenShot/p4-ss-4.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-5"></a>
+ 
 ### **🐞Bug-id : P4-BG-5**
 
 **Description:**  
@@ -975,7 +1032,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-5](ScreenShot/p4-ss-5.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-6"></a>
+ 
 ### **🐞Bug-id : P4-BG-6**
 
 **Description:**  
@@ -993,7 +1053,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-6](ScreenShot/p4-ss-6.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-7"></a>
+ 
 ### **🐞Bug-id : P4-BG-7**
 
 **Description:**  
@@ -1011,7 +1074,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-7](ScreenShot/p4-ss-7.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-8"></a>
+ 
 ### **🐞Bug-id : P4-BG-8**
 
 **Description:**  
@@ -1030,7 +1096,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-8](ScreenShot/p4-ss-8.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-9"></a>
+ 
 ### **🐞Bug-id : P4-BG-9**
 
 **Description:**  
@@ -1048,8 +1117,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-9](ScreenShot/p4-ss-9.png)
 
 [↩️](#top)
----
 
+---
+<a id="P4-BG-10"></a>
+ 
 ### **🐞Bug-id : P4-BG-10**
 
 **Description:**  
@@ -1068,7 +1139,10 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-10](ScreenShot/p4-ss-10.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-11"></a>
+ 
 ### **🐞Bug-id : P4-BG-11**
 
 **Description:**  
@@ -1088,7 +1162,10 @@ Button appears improperly placed on the right side, visually detached from relev
 **Evidence:**  [p4-ss-11](ScreenShot/p4-ss-11.png)
 
 [↩️](#top)
+
 ---
+<a id="P4-BG-12"></a>
+ 
 ### **🐞Bug-id : P4-BG-12**
 
 **Description:**  
@@ -1105,8 +1182,10 @@ Button appears improperly placed on the right side, visually detached from relev
 **Evidence:** [p4-ss-12](ScreenShot/p4-ss-12.png)
 
 [↩️](#top)
----
 
+---
+<a id="P4-BG-13"></a>
+ 
 ### **🐞Bug-id : P4-BG-13**
 
 **Description:**  
@@ -1127,3 +1206,5 @@ Button appears minimally styled, lacks proper formatting, and visually breaks UI
 [p4-ss-13](ScreenShot/p4-ss-13.png)
 
 [↩️](#top)
+
+---
