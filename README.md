@@ -12,7 +12,8 @@
 [Jump to Supervisor Portal](#supervisor-portal)
 
 ---
-#<a id="management-portal"></a>
+<a id="management-portal"></a>
+
 # **GTVL Management Portal — Bug Report**
 
 ---
