@@ -21,15 +21,15 @@ Each bug in this document is documented using the following fields:
 ---
 
 
-**Click below to navigate directly to the bug list for each portal:**
+**Click below to navigate directly to the bug list for each portal:-**
 
-[Management Portal](#management-portal)
+[1.Management Portal](#management-portal)
   
-[Promodizer Portal](#promodizer-portal)
+[2.Promodizer Portal](#promodizer-portal)
 
-[Sales Analytics Dashboard](#sales-analytics-portal)
+[3.Sales Analytics Dashboard](#sales-analytics-portal)
 
-[Supervisor Portal](#supervisor-portal)
+[4.Supervisor Portal](#supervisor-portal)
 
 ---
 <h1 align="center">⭐ Day-1 ⭐</h1>
@@ -901,3 +901,93 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 **Evidence:**  [p4-ss-7](ScreenShot/p4-ss-7.png)
 
 ---
+### **🐞Bug-id : P4-BG-8**
+
+**Description:**  
+1. The **Add New Promodizer** page displays **two Cancel buttons** —  
+   one at the top-right corner and another inside the form.  
+2. Having duplicate Cancel buttons is unnecessary and creates UI redundancy.  
+3. This may confuse users about which Cancel action to use.
+
+**Expected Result:** Only one clearly placed Cancel button should be displayed.  
+**Actual Result:** Two Cancel buttons appear on the same page.
+
+**Category:** UI  
+
+**Severity:** Low  
+
+**Evidence:**  [p4-ss-8](ScreenShot/p4-ss-8.png)
+
+---
+### **🐞Bug-id : P4-BG-9**
+
+**Description:**  
+1. The **Store dropdown** in the Sales History module is **not responsive** on iPad or tablet-sized screens.  
+2. The dropdown expands outside the visible screen area and does not adjust to the layout width.  
+3. This causes selection difficulty and breaks responsive UI behavior on medium-sized devices.
+
+**Expected Result:** Dropdown should resize and reposition properly on iPad/tablet view.  
+**Actual Result:** Dropdown overflows the screen and becomes unusable on tablet resolutions.
+
+**Category:** UI / Responsive Design  
+
+**Severity:** Medium  
+
+**Evidence:**  [p4-ss-9](ScreenShot/p4-ss-9.png)
+
+---
+
+### **🐞Bug-id : P4-BG-10**
+
+**Description:**  
+1. The **My Team summary section** (Total Promodizers, Active Promodizers, Stores) appears visually plain and inconsistent compared to other modules.  
+2. Cards do **not have hover backlight or hover effects**, making them less interactive.  
+3. No **icons** are displayed inside the cards, unlike similar summary cards in other portals/modules.  
+4. The cards lack a proper **color theme or visual hierarchy**, causing them to look incomplete and less engaging.
+
+**Expected Result:** Summary cards should include icons, hover effects, and consistent color styling similar to other modules.  
+**Actual Result:** Cards appear plain, without icons, hover effects, or a consistent color scheme.
+
+**Category:** UI / Visual Design  
+
+**Severity:** Low  
+
+**Evidence:**  [p4-ss-10](ScreenShot/p4-ss-10.png)
+
+---
+### **🐞Bug-id : P4-BG-11**
+
+**Description:**  
+The **Add to Store** button in the My Team module is placed incorrectly on the far right side, making it appear disconnected from the section.  
+Its position creates UI inconsistency and may confuse users about its purpose.
+
+**Expected Result:**  
+The Add to Store button should be placed near the store header or within a consistent actionable area for better UI clarity.
+
+**Actual Result:**  
+Button appears improperly placed on the right side, visually detached from relevant elements.
+
+**Category:** UI  
+
+**Severity:** Medium  
+
+**Evidence:**  [p4-ss-11](ScreenShot/p4-ss-11.png)
+
+---
+### **🐞Bug-id : P4-BG-12**
+
+**Description:**  
+1. The “Sales Recorded Successfully” popup does **not show any close (X) button** on the top-right corner.  
+2. User is unable to dismiss the popup without clicking one of the action buttons.
+
+**Expected Result:** Popup should include a clear **close (X)** icon to manually exit the popup.  
+**Actual Result:** No close option is provided; popup stays until an action button is pressed.
+
+**Category:** UI / Functional  
+
+**Severity:** Medium  
+
+**Evidence:** [p4-ss-12](ScreenShot/p4-ss-12.png)
+
+---
+
