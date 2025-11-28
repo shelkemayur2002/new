@@ -46,8 +46,10 @@ Each bug in this document is documented using the following fields:
 ---
 ## **Module 1 — SKUs**
 ---
+:
 
-### **Bug-id : P1-BG-1**
+🐞
+###  **  Bug-id : P1-BG-1**
 
 **Description:**  
 1. In the SKU list, all action icons (View, Edit, Delete) are unresponsive.  
@@ -61,6 +63,7 @@ Each bug in this document is documented using the following fields:
 
 ---
 
+🐞
 ### **Bug-id : P1-BG-2**
 
 **Description:**  
@@ -74,7 +77,7 @@ Each bug in this document is documented using the following fields:
 **Evidence:**  [p1-ss-2](ScreenShot/p1-ss-2.png)
 
 ---
-
+🐞
 ### **Bug-id : P1-BG-3**
 
 **Description:**  
@@ -91,7 +94,7 @@ Each bug in this document is documented using the following fields:
 
 ## **Module 2 — Stores**
 ---
-
+🐞
 ### **Bug-id : P1-BG-4**
 
 **Description:**  
@@ -105,7 +108,7 @@ Each bug in this document is documented using the following fields:
 **Evidence:**  [p1-ss-4](ScreenShot/p1-ss-4.png)
 
 ---
-
+🐞
 ### **Bug-id : P1-BG-5**
 
 **Description:**  
@@ -120,7 +123,7 @@ Each bug in this document is documented using the following fields:
 **Evidence:**  [p1-ss-5](ScreenShot/p1-ss-5.png)
 
 ---
-
+🐞
 ### **Bug-id : P1-BG-6**
 
 **Description:**  
