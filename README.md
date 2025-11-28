@@ -82,6 +82,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-2](ScreenShot/p1-ss-2.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-3**
@@ -99,6 +100,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-3](ScreenShot/p1-ss-3.png)
 
+[↩️](#top)
 ---
 
 ## **Module 2 — Stores**
@@ -119,6 +121,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-4](ScreenShot/p1-ss-4.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-5**
@@ -137,6 +140,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-5](ScreenShot/p1-ss-5.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-6**
@@ -154,6 +158,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-6](ScreenShot/p1-ss-6.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-7**
@@ -171,6 +176,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-7](ScreenShot/p1-ss-7.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-8**
@@ -188,6 +194,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-8](ScreenShot/p1-ss-8.png)
 
+[↩️](#top)
 ---
 
 ## **Module 3 — Supervisors**
@@ -210,6 +217,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-9](ScreenShot/p1-ss-9.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-10**
@@ -228,6 +236,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-10](ScreenShot/p1-ss-10.png)
 
+[↩️](#top)
 ---
 
 ## **Module 4 — Promodizers**
@@ -250,6 +259,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-11](ScreenShot/p1-ss-11.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-12**
@@ -267,6 +277,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-12](ScreenShot/p1-ss-12.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-13**
@@ -286,6 +297,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-13](ScreenShot/p1-ss-13.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P1-BG-14**
@@ -305,6 +317,7 @@ When clicking the “Assigned Stores” count for any promodizer, a popup appear
 
 **Evidence:**  [p1-ss-14](ScreenShot/p1-ss-14.png)
 
+[↩️](#top)
 ---
 
 ## **Module 5 — Dashboard**
@@ -326,6 +339,7 @@ When clicking the “Assigned Stores” count for any promodizer, a popup appear
 
 **Evidence:**  [p1-ss-15](ScreenShot/p1-ss-15.png)
 
+[↩️](#top)
 ---
 
 ---
@@ -356,6 +370,7 @@ When clicking the “Assigned Stores” count for any promodizer, a popup appear
 
 **Evidence:**  [p2-ss-1](ScreenShot/p2-ss-1.jpg)
 
+[↩️](#top)
 ---
 
 ## **Module 2 — Sales History**
@@ -377,6 +392,7 @@ When clicking the “Assigned Stores” count for any promodizer, a popup appear
 
 **Evidence:**  [p2-ss-2](ScreenShot/p2-ss-2.png)
 
+[↩️](#top)
 ---
 
 ## **Module 3 — Attendance History**
@@ -399,6 +415,7 @@ When clicking the “Assigned Stores” count for any promodizer, a popup appear
 
 **Evidence:**  [p2-ss-3](ScreenShot/p2-ss-3.png)
 
+[↩️](#top)
 ---
 
 ## **Module 4 — My Profile**
@@ -421,6 +438,7 @@ When clicking the “Assigned Stores” count for any promodizer, a popup appear
 
 **Evidence:**  [p2-ss-4](ScreenShot/p2-ss-4.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P2-BG-5**
@@ -448,6 +466,7 @@ This makes the sidebar visually inconsistent and confusing.
 
 **Evidence:**  [p2-ss-5](ScreenShot/p2-ss-5.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P2-BG-6**
@@ -465,6 +484,7 @@ This makes the sidebar visually inconsistent and confusing.
 
 **Evidence:**  [p2-ss-6](ScreenShot/p2-ss-6.png)
 
+[↩️](#top)
 ---
 
 <a id="sales-analytics-portal"></a>
@@ -494,6 +514,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-1](ScreenShot/p3-ss-1.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-2**
@@ -512,6 +533,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-2](ScreenShot/p3-ss-2.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-3**
@@ -530,6 +552,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-3](ScreenShot/p3-ss-3.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-4**
@@ -548,6 +571,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-4](ScreenShot/p3-ss-4.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-5**
@@ -566,6 +590,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-5](ScreenShot/p3-ss-5.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-6**
@@ -584,6 +609,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-6](ScreenShot/p3-ss-6.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-7**
@@ -601,6 +627,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-7](ScreenShot/p3-ss-7.png)
 
+[↩️](#top)
 ---
 
 ## **Module 2 — Store Performance**
@@ -623,6 +650,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-8](ScreenShot/p3-ss-8.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-9**
@@ -641,6 +669,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-9](ScreenShot/p3-ss-9.png)
 
+[↩️](#top)
 ---
 
 ## **Module 3 — Staff Performance**
@@ -663,6 +692,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-10](ScreenShot/p3-ss-10.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-11**
@@ -681,6 +711,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-11](ScreenShot/p3-ss-11.png)
 
+[↩️](#top)
 ---
 
 ### **🐞Bug-id : P3-BG-12**
