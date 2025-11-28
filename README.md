@@ -1,15 +1,39 @@
 # ERP SYSTEM
 ---
+## 📘 Introduction
+
+This document contains a comprehensive and structured list of defects identified across the four GTVL portals during exploratory testing. All bugs are organized module-wise to maintain clarity and ensure easy review. Shortcut navigation links are provided at the top of the file to allow reviewers to directly jump to each portal’s bug list. Every bug entry follows a standardized format to maintain consistency, improve readability, and help developers quickly understand the issue, its expected behavior, and supporting evidence.
+
+---
+
+## 📝 Bug Fields Used
+
+Each bug in this document is documented using the following fields:
+
+- **Bug-id**  
+- **Description**  
+- **Expected**  
+- **Actual**  
+- **Category**  
+- **Severity**  
+- **Evidence**
+
+---
+
+
+**Click below to navigate directly to the bug list for each portal:**
+[Management Portal](#management-portal)
+  
+[Promodizer Portal](#promodizer-portal)
+
+[Sales Analytics Dashboard](#sales-analytics-portal)
+
+[Supervisor Portal](#supervisor-portal)
+
+---
 <h1 align="center"> Day-1 </h1>
 
-
-[Jump to Management Portal](#management-portal)
-  
-[Jump to Promodizer Portal](#promodizer-portal)
-
-[Jump to Sales Analytics Dashboard](#sales-analytics-portal)
-
-[Jump to Supervisor Portal](#supervisor-portal)
+## Generate A Pull Request
 
 ---
 <a id="management-portal"></a>
