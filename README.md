@@ -63,7 +63,7 @@ Each bug in this document is documented using the following fields:
 
 **Evidence:**  [p1-ss-1](ScreenShot/p1-ss-1.png)
 
-↩️(#top)
+[↩️](#top)
 
 ---
 
@@ -994,5 +994,4 @@ Button appears improperly placed on the right side, visually detached from relev
 **Evidence:** [p4-ss-12](ScreenShot/p4-ss-12.png)
 
 ---
-
 
