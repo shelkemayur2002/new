@@ -22,6 +22,7 @@ Each bug in this document is documented using the following fields:
 
 
 **Click below to navigate directly to the bug list for each portal:**
+
 [Management Portal](#management-portal)
   
 [Promodizer Portal](#promodizer-portal)
