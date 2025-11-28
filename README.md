@@ -254,6 +254,7 @@
 
 ---
 <a id="promodizer-portal"></a>
+
 # **GTVL Promodizer Portal — Bug Report**
 
 # **GTVL Promodizer Portal — Bug Report**
@@ -371,6 +372,7 @@ Submission always fails, and no feedback is stored.
 
 ---
 <a name="sales-analytics-section"></a>
+
 # **GTVL Sales Analytics Dashboard — Bug Report**
 
 
