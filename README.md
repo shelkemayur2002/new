@@ -2,13 +2,24 @@
 ---
 <h1 align="center"> Day-1 </h1>
 
-[Jump to Sales Analytics Bug Report](#sales-analytics-section)
 
-# Create Pull request
+[Jump to Management Portal](#management-portal)
+  
+[Jump to Promodizer Portal](#promodizer-portal)
+
+[Jump to Sales Analytics Dashboard](#sales-analytics-portal)
+
+[Jump to Supervisor Portal](#supervisor-portal)
+
+---
+
 ---
 <h1 align="center"> Day-2 </h1>
 
 ---
+<a id="promodizer-portal"></a>
+# **GTVL Promodizer Portal — Bug Report**
+
 # **GTVL Management Portal — Bug Report**
 
 ---
@@ -248,6 +259,9 @@
 <h1 align="center"> Day-3 </h1>
 
 ---
+<a id="promodizer-portal"></a>
+# **GTVL Promodizer Portal — Bug Report**
+
 # **GTVL Promodizer Portal — Bug Report**
 
 ---
