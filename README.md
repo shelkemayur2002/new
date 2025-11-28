@@ -34,17 +34,15 @@ Each bug in this document is documented using the following fields:
 ---
 <h1 align="center">⭐ Day-1 ⭐</h1>
 
-## Generate A Pull Request
+## Create A Pull Request
 
 ------
 <h1 align="center">⭐ Day-2 ⭐</h1>
 
+#**GTVL Management Portal — Bug Report**
 ---
 <a id="management-portal"></a>
 
-# **GTVL Management Portal — Bug Report**
-
----
 ## **Module 1 — SKUs**
 ---
 
@@ -54,8 +52,8 @@ Each bug in this document is documented using the following fields:
 1. In the SKU list, all action icons (View, Edit, Delete) are unresponsive.  
 2. Clicking any icon does not trigger any navigation or action.
 
-**Expected Result:** All SKU action buttons should work properly.  
-**Actual Result:** View/Edit/Delete do not respond when clicked.
+**Expected Result:** All SKU action icons should open the correct View, Edit, or Delete actions.  
+**Actual Result:** None of the action icons perform any operation when clicked.
 
 **Category:**  Functional  
 
@@ -71,8 +69,8 @@ Each bug in this document is documented using the following fields:
 1. The SKU list does not include a Clear Filters button.  
 2. Once a filter is applied, there is no way to reset the list to default view.
 
-**Expected Result:** Clear Filters button should reset the applied filters.  
-**Actual Result:** No option to clear filters; user must manually remove each filter.
+**Expected Result:** A Clear Filters option should reset all applied filters to default view.  
+**Actual Result:** No clear/reset option is available; user must manually remove each filter.
 
 **Category:**  UI  
 
@@ -88,8 +86,8 @@ Each bug in this document is documented using the following fields:
 1. System allows creation of a new SKU even when the SKU Code already exists.  
 2. No validation or warning is shown for duplicate SKU codes.
 
-**Expected Result:** System should not allow duplicate SKU codes.  
-**Actual Result:** Duplicate SKUs are created without any validation message.
+**Expected Result:** System should prevent creation of duplicate SKU codes and show a validation message.  
+**Actual Result:** Duplicate SKU codes are accepted without any warning.
 
 **Category:**  Functional  
 
@@ -108,8 +106,8 @@ Each bug in this document is documented using the following fields:
 1. ZIP/Postal Code field accepts alphabetic characters.  
 2. No validation prevents the user from entering non-numeric data.
 
-**Expected Result:** ZIP code field should allow only numeric values.  
-**Actual Result:** Alphabetic characters are accepted.
+**Expected Result:** ZIP field should accept only numeric values.  
+**Actual Result:** Alphabet characters are accepted without validation.
 
 **Category:**  Functional  
 
@@ -126,8 +124,8 @@ Each bug in this document is documented using the following fields:
 2. Backspace and delete keys do not work once input is typed.  
 3. User cannot correct or modify the phone number after typing.
 
-**Expected Result:** User should be able to edit/delete phone number normally.  
-**Actual Result:** Backspace/Delete do not work; phone cannot be edited.
+**Expected Result:** Phone number field should support normal editing (delete/backspace).  
+**Actual Result:** User is unable to delete or modify entered values.
 
 **Category:**  Functional  
 
@@ -143,8 +141,8 @@ Each bug in this document is documented using the following fields:
 1. All action icons (View, Edit, Delete) in the Store Directory do not work.  
 2. Clicking any icon does not trigger any response.
 
-**Expected Result:** Store actions should open details/edit/delete as expected.  
-**Actual Result:** Icons do nothing when clicked.
+**Expected Result:** Store action icons should open View, Edit, or Delete functions.  
+**Actual Result:** Icons do not respond when clicked; no action is triggered.
 
 **Category:**  Functional  
 
@@ -160,8 +158,8 @@ Each bug in this document is documented using the following fields:
 1. The Store Directory page has filters but no Clear Filters or Reset button.  
 2. Once filters are applied, the user cannot reset the view easily.
 
-**Expected Result:** Clear Filters button should reset all applied filters.  
-**Actual Result:** No option available to clear filters.
+**Expected Result:** Clear Filters should reset status, assignment, and search filters.  
+**Actual Result:** No such option exists; filters must be manually removed.
 
 **Category:**  UI  
 
@@ -177,8 +175,8 @@ Each bug in this document is documented using the following fields:
 1. The Export button on the Store Directory page is unresponsive.  
 2. Clicking the button does not trigger any file download or popup.
 
-**Expected Result:** Export button should download CSV/Excel file.  
-**Actual Result:** No response when clicking Export.
+**Expected Result:** Export should download a CSV/Excel file of Store Directory.  
+**Actual Result:** No download or response occurs when clicking Export.
 
 **Category:**  Functional  
 
@@ -196,10 +194,11 @@ Each bug in this document is documented using the following fields:
 **Description:**  
 1. The system allows creating multiple supervisors with the same name.  
 2. The Name field also accepts numeric characters (e.g., “John123”).  
-3. No validation exists to restrict the name field to alphabetic characters only.
+3. No validation exists to restrict the name field to alphabetic characters only.  
+4. This results in inconsistent and incorrect supervisor records.
 
-**Expected Result:** Name should not allow numbers or duplicates.  
-**Actual Result:** System accepts numeric/duplicate names without validation.
+**Expected Result:** Name field should validate duplicates and block numeric characters.  
+**Actual Result:** Duplicate names and number-containing names are accepted.
 
 **Category:**  Functional  
 
@@ -213,10 +212,11 @@ Each bug in this document is documented using the following fields:
 
 **Description:**  
 1. While creating a new supervisor, the phone number input field stops accepting backspace/delete after entering partial input (e.g., “(555)”).  
-2. User cannot edit or remove characters once typed.
+2. User cannot edit or remove characters once typed.  
+3. Only page refresh resets the field.
 
-**Expected Result:** Backspace/Delete should work normally.  
-**Actual Result:** Phone field becomes locked after partial entry.
+**Expected Result:** Phone field should allow editing and deleting normally.  
+**Actual Result:** Backspace/Delete do not work; field becomes locked.
 
 **Category:**  Functional  
 
@@ -234,10 +234,11 @@ Each bug in this document is documented using the following fields:
 **Description:**  
 1. The system allows creating promodizers with duplicate names.  
 2. The Name field accepts numeric characters (e.g., “Mayur123”).  
-3. No validation enforces alphabet-only names.
+3. No validation enforces alphabet-only names.  
+4. This results in incorrect and inconsistent employee records.
 
-**Expected Result:** No duplicates; no numeric characters allowed.  
-**Actual Result:** System accepts duplicates and numbers.
+**Expected Result:** Promodizer names should be alphabetic-only and unique.  
+**Actual Result:** Duplicate and numeric names are accepted.
 
 **Category:**  Functional  
 
@@ -251,10 +252,10 @@ Each bug in this document is documented using the following fields:
 
 **Description:**  
 1. The “Create Promodizer” button shows a loading state (“Creating…”) even before clicking.  
-2. Invalid data still triggers the loading state.
+2. Invalid data (numbers in names, incorrect formats) still triggers the loading state.
 
-**Expected Result:** Button should load only after clicking with valid data.  
-**Actual Result:** Button shows loading even before action.
+**Expected Result:** Button should load only after clicking and only with valid data.  
+**Actual Result:** Button shows loading state prematurely.
 
 **Category:**  Functional  
 
@@ -267,11 +268,13 @@ Each bug in this document is documented using the following fields:
 ### **🐞Bug-id : P1-BG-13**
 
 **Description:**  
-1. When editing a promodizer, the phone number field remains in an error state even when entering a valid format (e.g., +1-555-0301).  
-2. The Update Promodizer button stays disabled.
+1. When editing a promodizer, the phone number field remains in an error state even when entering a valid format (e.g., `+1-555-0301`).  
+2. The system incorrectly flags the input as invalid.  
+3. The Update Promodizer button stays disabled, preventing any updates.  
+4. User cannot save changes due to incorrect phone validation.
 
-**Expected Result:** Valid phone numbers should be accepted; update enabled.  
-**Actual Result:** Shows error & disables update button.
+**Expected Result:** Valid phone numbers should remove the error state and allow updating.  
+**Actual Result:** Field stays in error; update button stays disabled.
 
 **Category:**  Functional  
 
@@ -284,11 +287,13 @@ Each bug in this document is documented using the following fields:
 ### **🐞Bug-id : P1-BG-14**
 
 **Description:**  
-1. Assigned Stores popup external-link does not redirect to store details.  
-2. Close (X) button does not close the popup.
+When clicking the “Assigned Stores” count for any promodizer, a popup appears showing the list of assigned stores.  
+1. The external-link icon in each store card does not redirect to the store details page.  
+2. The close (X) button on the popup is non-functional and does not close the popup.  
+3. User is forced to refresh the page to exit the popup.
 
-**Expected Result:** External link should open store details; close should work.  
-**Actual Result:** Neither redirect nor close works.
+**Expected Result:** Clicking link should open store details; X button should close popup.  
+**Actual Result:** Neither redirect nor close works; popup remains stuck.
 
 **Category:**  Functional / UI  
 
@@ -304,10 +309,11 @@ Each bug in this document is documented using the following fields:
 ### **🐞Bug-id : P1-BG-15**
 
 **Description:**  
-1. Dashboard module cards contain right-arrow icon for quick navigation.  
-2. Clicking these arrows does nothing.
+1. On the Management Dashboard, each module card contains a right-arrow icon intended for quick navigation.  
+2. Clicking these arrows does nothing.  
+3. No page navigation or action is triggered.
 
-**Expected Result:** Should navigate to respective module pages.  
+**Expected Result:** Clicking arrow should navigate to the module’s page.  
 **Actual Result:** Arrow icons are unresponsive.
 
 **Category:**  Functional  
@@ -315,6 +321,8 @@ Each bug in this document is documented using the following fields:
 **Severity:**  Medium  
 
 **Evidence:**  [p1-ss-15](ScreenShot/p1-ss-15.png)
+
+---
 
 ---
 <h1 align="center">⭐ Day-3 ⭐</h1>
@@ -331,11 +339,12 @@ Each bug in this document is documented using the following fields:
 ### **🐞Bug-id : P2-BG-1**
 
 **Description:**  
-1. The Home button icon is not fixed in a consistent position.  
-2. It shifts across different modules such as Record Sales, Sales History, and Attendance.
+1. The Home button icon (top-right corner) is not fixed in a consistent position.  
+2. Its placement shifts across different modules such as Record Sales, Sales History, and Attendance.  
+3. This creates UI inconsistency and may confuse users.
 
-**Expected Result:** Home icon should stay in a fixed consistent position.  
-**Actual Result:** Home icon changes position across pages.
+**Expected Result:** Home icon should stay in a fixed, consistent position across all modules.  
+**Actual Result:** Home icon shifts position on different screens, causing inconsistency.
 
 **Category:** UI  
 
@@ -351,11 +360,12 @@ Each bug in this document is documented using the following fields:
 ### **🐞Bug-id : P2-BG-2**
 
 **Description:**  
-1. After recording a sale, the entry appears in Sales History.  
-2. Clicking the sale shows “Sales record not found”.
+1. After recording a sale successfully, the entry appears correctly in Sales History.  
+2. When clicking any sales entry, the Sales Detail page opens but shows “Sales record not found”.  
+3. The system fails to load the sale description even though the sale history card displays the sale information.
 
-**Expected Result:** Sales details should load correctly.  
-**Actual Result:** Sales Detail page shows “record not found”.
+**Expected Result:** Clicking a sale entry should open its detailed Sales Record page with full information.  
+**Actual Result:** Detail page shows “Sales record not found” even for valid records.
 
 **Category:** Functional  
 
@@ -371,11 +381,13 @@ Each bug in this document is documented using the following fields:
 ### **🐞Bug-id : P2-BG-3**
 
 **Description:**  
-1. Calendar View shows all dates under Sunday column.  
-2. Monday–Saturday columns remain empty.
+1. In the Attendance History Calendar View, all dates for the entire month are listed under the Sunday column.  
+2. Other weekday columns (Mon–Sat) remain empty.  
+3. The calendar grid fails to position dates according to correct weekdays.  
+4. This makes the calendar view unusable and misleading.
 
-**Expected Result:** Dates should align correctly with weekdays.  
-**Actual Result:** All dates appear under Sunday only.
+**Expected Result:** Calendar should place each date under its correct weekday column.  
+**Actual Result:** All dates appear under Sunday, with other columns empty.
 
 **Category:** UI / Functional  
 
@@ -391,11 +403,13 @@ Each bug in this document is documented using the following fields:
 ### **🐞Bug-id : P2-BG-4**
 
 **Description:**  
-1. My Profile page uses only the left area of the screen.  
-2. Right side has a large empty space.
+1. The My Profile page displays user information only on the left portion of the page.  
+2. A large empty space appears on the right side, making the layout look incomplete.  
+3. Page content does not stretch to utilize available width.  
+4. Overall UI looks unbalanced and visually unappealing.
 
-**Expected Result:** Layout should be centered and properly spaced.  
-**Actual Result:** Large empty right space makes layout unbalanced.
+**Expected Result:** My Profile layout should be balanced and use available page width effectively.  
+**Actual Result:** Page content is left-aligned with empty space and unbalanced layout.
 
 **Category:** UI  
 
@@ -408,10 +422,21 @@ Each bug in this document is documented using the following fields:
 ### **🐞Bug-id : P2-BG-5**
 
 **Description:**  
-Sidebar navigation does not update active state correctly.
+The sidebar navigation in the Promodizer Portal does not correctly update the active state when moving between modules.  
+This issue appears in two ways:
 
-**Expected Result:** Green indicator & highlight should move with active item.  
-**Actual Result:** Green light stays on Dashboard; highlight missing for several items.
+1. **Green Active Indicator Does Not Move**  
+   - The small green light/backlight stays fixed on Dashboard.  
+   - It does not follow the currently selected menu option.
+
+2. **Sidebar Highlight Works Only for Some Items**  
+   - Highlight appears correctly for Dashboard, Record Sales, My Stores, My Profile.  
+   - Highlight does NOT appear for Sales History, Attendance, Attendance History.  
+
+This makes the sidebar visually inconsistent and confusing.
+
+**Expected Result:** Active state indicators should move correctly and highlight should appear for all menu items.  
+**Actual Result:** Active indicator remains fixed; highlight shows only for some modules.
 
 **Category:** UI / Functional  
 
@@ -424,10 +449,11 @@ Sidebar navigation does not update active state correctly.
 ### **🐞Bug-id : P2-BG-6**
 
 **Description:**  
-Feedback form does not successfully submit any feedback.
+1. The feedback form does not successfully save or submit any feedback.  
+2. Submission always fails, and no feedback is stored.
 
-**Expected Result:** Feedback should save & show success message.  
-**Actual Result:** Error message appears; feedback not saved.
+**Expected Result:** Feedback form should save and submit responses successfully.  
+**Actual Result:** Feedback submission fails and nothing is stored.
 
 **Category:** Functional  
 
@@ -444,15 +470,19 @@ Feedback form does not successfully submit any feedback.
 ---
 
 ## **Module 1 — SKU Performance**
+
 ---
 
 ### **🐞Bug-id : P3-BG-1**
 
 **Description:**  
-Filters panel and Min–Max input fields are misaligned.
+The **SKU Performance Analysis** screen contains multiple UI alignment issues:  
+1. The **Filters panel** is not aligned properly with the SKU table header section.  
+2. The **Total Quantity Sold (Min–Max)** input fields are uneven and visually misaligned.  
+These inconsistencies affect UI clarity and overall user experience.
 
-**Expected Result:** Filters panel and inputs should align consistently.  
-**Actual Result:** Both appear uneven and misaligned.
+**Expected Result:** Filters and input fields should be aligned consistently with the table layout.  
+**Actual Result:** Filters and Min–Max fields appear misaligned and visually inconsistent.
 
 **Category:**  UI  
 
@@ -465,10 +495,12 @@ Filters panel and Min–Max input fields are misaligned.
 ### **🐞Bug-id : P3-BG-2**
 
 **Description:**  
-Search filter clear (X) button does not remove applied filter.
+1. When a search input is applied in the SKU Performance module, a filter tag appears with a clear (X) button.  
+2. Clicking the **X** does not remove the applied search filter.  
+3. The search field also does not reset, and the results remain unchanged.
 
-**Expected Result:** X should clear search and reset results.  
-**Actual Result:** Clicking X does nothing.
+**Expected Result:** Clicking the X should remove the search filter and reset the results.  
+**Actual Result:** X button does nothing; filter stays applied and results do not reset.
 
 **Category:**  Functional  
 
@@ -481,10 +513,12 @@ Search filter clear (X) button does not remove applied filter.
 ### **🐞Bug-id : P3-BG-3**
 
 **Description:**  
-Clear All button does not reset Status filters (Active remains checked).
+1. The **Clear All** button in the Filters panel does not reset the **Status** checkboxes.  
+2. Even after clicking **Clear All**, the **Active** checkbox remains selected.  
+3. Other filters may reset, but the status filter does not clear.
 
-**Expected Result:** All filters including Status should reset.  
-**Actual Result:** Active checkbox remains checked.
+**Expected Result:** Clear All should uncheck all status checkboxes.  
+**Actual Result:** Active checkbox remains checked even after Clear All.
 
 **Category:**  Functional  
 
@@ -497,10 +531,12 @@ Clear All button does not reset Status filters (Active remains checked).
 ### **🐞Bug-id : P3-BG-4**
 
 **Description:**  
-Custom Range does not open a date picker.
+1. When selecting **Custom Range** from the Date Range dropdown, no date picker or calendar modal opens.  
+2. User cannot select a start date or end date.  
+3. The Custom Range option becomes unusable and does not filter SKU data.
 
-**Expected Result:** Date picker should open for selecting range.  
-**Actual Result:** Nothing appears when Custom Range is selected.
+**Expected Result:** A date picker should open allowing selection of From and To dates.  
+**Actual Result:** No date picker opens, preventing custom date selection.
 
 **Category:**  Functional / UI 
 
@@ -513,10 +549,12 @@ Custom Range does not open a date picker.
 ### **🐞Bug-id : P3-BG-5**
 
 **Description:**  
-Total Quantity Sold filter accepts negative values.
+1. The **Total Quantity Sold** filter allows users to enter negative numbers (e.g., -55 to -60).  
+2. Negative quantities make no logical sense in sales analytics.  
+3. System applies the filter and displays results with negative range.
 
-**Expected Result:** Negative values should not be accepted.  
-**Actual Result:** System accepts and applies negative range.
+**Expected Result:** Total Quantity Sold fields should not accept negative values.  
+**Actual Result:** System accepts and applies filters with negative input.
 
 **Category:**  Functional / Validation 
 
@@ -529,10 +567,12 @@ Total Quantity Sold filter accepts negative values.
 ### **🐞Bug-id : P3-BG-6**
 
 **Description:**  
-When both Active & Inactive are unchecked, system shows “Status: None Selected” and returns no results.
+1. When both **Active** and **Inactive** checkboxes are unchecked in the Status filter, the system shows a tag **“Status: None Selected”**.  
+2. System treats this as a filter condition instead of removing all filtering.  
+3. As a result, SKU table displays **“No SKUs Found”**, even though SKUs exist.
 
-**Expected Result:** Should show all SKUs if nothing is selected.  
-**Actual Result:** Shows empty list with “None Selected”.
+**Expected Result:** If no status is selected, system should display all SKUs by default.  
+**Actual Result:** System applies “None Selected” as a filter and hides all SKUs.
 
 **Category:**  Functional  
 
@@ -545,12 +585,13 @@ When both Active & Inactive are unchecked, system shows “Status: None Selected
 ### **🐞Bug-id : P3-BG-7**
 
 **Description:**  
-When both statuses are selected, tag incorrectly shows “Inactive Only”.
+1. When both Status options (Active + Inactive) are selected, the filter tag incorrectly shows: **“Status: Inactive Only”**.  
+2. This misrepresents the actual filter condition and causes confusion.
 
-**Expected Result:** Should show “Active & Inactive” or “All”.  
-**Actual Result:** Shows “Inactive Only”.
+**Expected Result:** Filter tag should show “Active & Inactive” or “All”.  
+**Actual Result:** Tag displays “Inactive Only” even when both options are selected.
 
-**Category:**  Functional / UI 
+**Category:**  Functional / UI  
 
 **Severity:**  Medium  
 
@@ -559,15 +600,18 @@ When both statuses are selected, tag incorrectly shows “Inactive Only”.
 ---
 
 ## **Module 2 — Store Performance**
+
 ---
 
 ### **🐞Bug-id : P3-BG-8**
 
 **Description:**  
-Some table columns are not visible in desktop view due to overflow.
+1. In the **Store Performance** module, some table columns are **not visible in desktop view** due to horizontal overflow.  
+2. Right-side columns like **SKUs Sold**, **Active Staff**, **Last Sale Date** become hidden.  
+3. All columns are visible only in mobile view (verified).
 
-**Expected Result:** All columns should be visible with scrolling.  
-**Actual Result:** Columns on the right are clipped/hidden.
+**Expected Result:** All columns should be visible normally in desktop view.  
+**Actual Result:** Several right-side columns are clipped or hidden in desktop layout.
 
 **Category:**  UI / Layout  
 
@@ -580,10 +624,12 @@ Some table columns are not visible in desktop view due to overflow.
 ### **🐞Bug-id : P3-BG-9**
 
 **Description:**  
-Sales Volume filter accepts negative values.
+1. The **Sales Volume** filter accepts negative values in Min and Max fields.  
+2. Negative sales volume is logically invalid.  
+3. System still applies the filter and shows values like **Sales: -55 – 55**.
 
-**Expected Result:** Only non-negative values should be accepted.  
-**Actual Result:** Negative values are applied successfully.
+**Expected Result:** Sales Volume filter should allow only non-negative values.  
+**Actual Result:** Negative values are accepted and applied without validation.
 
 **Category:**  Functional / Validation  
 
@@ -594,15 +640,18 @@ Sales Volume filter accepts negative values.
 ---
 
 ## **Module 3 — Staff Performance**
+
 ---
 
 ### **🐞Bug-id : P3-BG-10**
 
 **Description:**  
-Filter tag X button does not remove filters.
+1. Filter tags in Staff Performance show an **X** button to clear each filter.  
+2. Clicking the **X** does nothing.  
+3. Filters remain applied and table does not refresh.
 
-**Expected Result:** X should remove filter and refresh data.  
-**Actual Result:** Tag remains; filter stays applied.
+**Expected Result:** Clicking X should remove that filter and refresh data.  
+**Actual Result:** X button does nothing and filter remains active.
 
 **Category:**  Functional  
 
@@ -615,10 +664,12 @@ Filter tag X button does not remove filters.
 ### **🐞Bug-id : P3-BG-11**
 
 **Description:**  
-Employee detail page shows “Staff Not Found”.
+1. Clicking any employee row should open employee details.  
+2. Instead, page shows **“Staff Not Found”** with empty fields.  
+3. No employee data loads even when valid employees are selected.
 
-**Expected Result:** Employee details should load correctly.  
-**Actual Result:** Empty page with “Not Found”.
+**Expected Result:** Employee Detail page should load with real employee data.  
+**Actual Result:** Page shows “Staff Not Found” and loads no data.
 
 **Category:**  Functional  
 
@@ -631,10 +682,12 @@ Employee detail page shows “Staff Not Found”.
 ### **🐞Bug-id : P3-BG-12**
 
 **Description:**  
-Clear All does not reset Role filters.
+1. In Staff Performance, both Role checkboxes (Promodizer & Supervisor) are auto-checked.  
+2. Clicking **Clear All Filters** does **not** uncheck these boxes.  
+3. Role filter remains active and cannot be fully reset.
 
-**Expected Result:** Role checkboxes should uncheck when clearing filters.  
-**Actual Result:** Both checkboxes remain checked.
+**Expected Result:** Clear All should reset all filters including role checkboxes.  
+**Actual Result:** Promodizer & Supervisor remain selected after Clear All.
 
 **Category:**  Functional  
 
@@ -645,12 +698,15 @@ Clear All does not reset Role filters.
 ---
 
 ## **Module 4 — Transaction History**
+
 ---
 
 ### **🐞Bug-id : P3-BG-13**
 
 **Description:**  
-Store and Staff checkbox filters do not reset when Clear All is clicked.
+1. In Transaction History, **Store** and **Staff** checkbox filters do NOT reset after clicking **Clear All**.  
+2. All values remain checked.  
+3. Filter state cannot be reset without manually unchecking every entry.
 
 **Expected Result:** Clear All should uncheck Store & Staff checkboxes.  
 **Actual Result:** All checkboxes remain checked after Clear All.
@@ -663,13 +719,14 @@ Store and Staff checkbox filters do not reset when Clear All is clicked.
 
 ---
 
-### **🐞Bug-id : P3-BG-14** 
+### **🐞Bug-id : P3-BG-14**
 
 **Description:**  
-Total Quantity Range filter allows negative inputs.
+1. The Total Quantity Range filter in Transaction History allows negative numbers (e.g., -555, -66).  
+2. System accepts and applies these invalid values when filtering.
 
-**Expected Result:** Only non-negative quantity should be allowed.  
-**Actual Result:** System accepts negative values.
+**Expected Result:** Total Quantity Range should not accept negative values.  
+**Actual Result:** System accepts negative values and applies the filter.
 
 **Category:**  Functional / Validation  
 
@@ -679,13 +736,14 @@ Total Quantity Range filter allows negative inputs.
 
 ---
 
-### **🐞Bug-id : P3-BG-15** 
+### **🐞Bug-id : P3-BG-15**
 
 **Description:**  
-Clear All text appears without button structure.
+1. The **Clear All** text appears without any button styling or visible button structure.  
+2. Its position is incorrect — it is placed at the top instead of below the **Apply Filters** button.
 
-**Expected Result:** Clear All should appear as a styled button in correct place.  
-**Actual Result:** Plain text, placed incorrectly at the top.
+**Expected Result:** Clear All should be a styled button placed below Apply Filters.  
+**Actual Result:** Clear All appears as plain text at the top.
 
 **Category:**  UI  
 
@@ -695,13 +753,15 @@ Clear All text appears without button structure.
 
 ---
 
-### **🐞Bug-id : P3-BG-16** 
+### **🐞Bug-id : P3-BG-16**
 
 **Description:**  
-Role & Submission ID headers have different styling and missing sorting arrows.
+1. The table headers **Role** and **Submission ID** have a different text style compared to other table headers.  
+2. The **sorting arrows (up/down)** seen on other columns are missing for these two headers.  
+3. This causes UI inconsistency within the Transaction History table.
 
-**Expected Result:** Headers should match others & show sort arrows.  
-**Actual Result:** Different style + no sorting arrows.
+**Expected Result:** Role & Submission ID headers should match other headers and show sorting arrows.  
+**Actual Result:** Headers are styled differently and sorting arrows are missing.
 
 **Category:**  UI  
 
