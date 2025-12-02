@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-#  ERP(Enterprise Resource Planning) SYSTEM
+#  ERP SYSTEM
 ---
 ##  Introduction
 
@@ -137,12 +137,12 @@ The portal requires enhancements in functional completeness, responsive UI, data
 | [P4-BG-18](#P4-BG-18) | Clear Filters button styling inconsistent |
 
 ---
-<h1 align="center">⭐ Day-1 ⭐</h1>
+<h1 align="center"> Day-1 </h1>
 
 ## Create A Pull Request
 
 ------
-<h1 align="center">⭐ Day-2 ⭐</h1>
+<h1 align="center"> Day-2 </h1>
 
 #**GTVL Management Portal — Bug Report**
 ---
@@ -167,7 +167,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-1](ScreenShot/p1-ss-1.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-2"></a>
@@ -187,7 +187,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-2](ScreenShot/p1-ss-2.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-3"></a>
@@ -207,7 +207,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-3](ScreenShot/p1-ss-3.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 
@@ -230,7 +230,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-4](ScreenShot/p1-ss-4.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-5"></a>
@@ -251,7 +251,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-5](ScreenShot/p1-ss-5.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-6"></a>
@@ -271,7 +271,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-6](ScreenShot/p1-ss-6.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-7"></a>
@@ -291,7 +291,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-7](ScreenShot/p1-ss-7.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-8"></a>
@@ -311,7 +311,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-8](ScreenShot/p1-ss-8.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-9"></a>
@@ -336,7 +336,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-9](ScreenShot/p1-ss-9.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-10"></a>
@@ -357,7 +357,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-10](ScreenShot/p1-ss-10.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 
@@ -384,7 +384,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-11](ScreenShot/p1-ss-11.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-12"></a>
@@ -404,7 +404,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-12](ScreenShot/p1-ss-12.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-13"></a>
@@ -426,7 +426,7 @@ The portal requires enhancements in functional completeness, responsive UI, data
 
 **Evidence:**  [p1-ss-13](ScreenShot/p1-ss-13.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-14"></a>
@@ -448,7 +448,7 @@ When clicking the “Assigned Stores” count for any promodizer, a popup appear
 
 **Evidence:**  [p1-ss-14](ScreenShot/p1-ss-14.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 
@@ -473,7 +473,7 @@ When clicking the “Assigned Stores” count for any promodizer, a popup appear
 
 **Evidence:**  [p1-ss-15](ScreenShot/p1-ss-15.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-16"></a>
@@ -497,7 +497,7 @@ Import SKUs button shows an incorrect upload-style icon.
 
 **Evidence:**  [p1-ss-16](ScreenShot/p1-ss-16.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-17"></a>
@@ -526,7 +526,7 @@ Import SKUs button shows an incorrect upload-style icon.
 **Evidence:**  
 [p1-ss-17](ScreenShot/p1-ss-17.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-18"></a>
@@ -551,7 +551,7 @@ Status label appears in lowercase on the SKUs page but uppercase elsewhere.
 **Evidence:**  
 [p1-ss-18](ScreenShot/p1-ss-18.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-19"></a>
@@ -576,7 +576,7 @@ A square box appears around the selected radio button, causing UI inconsistency.
 **Evidence:**  
 [p1-ss-19](ScreenShot/p1-ss-19.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-20"></a>
@@ -601,7 +601,7 @@ Sorting icons are missing even though sorting functionality is active.
 **Evidence:**  
 [p1-ss-20](ScreenShot/p1-ss-20.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-21"></a>
@@ -625,7 +625,7 @@ No confirmation message appears after deletion.
 **Evidence:**  
 [p1-ss-21](ScreenShot/p1-ss-21.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-22"></a>
@@ -653,7 +653,7 @@ Labels for the Search textbox and Status dropdown are missing in the Supervisor 
 **Evidence:**  
 [p1-ss-22](ScreenShot/p1-ss-22.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P1-BG-23"></a>
@@ -678,10 +678,10 @@ Back navigation appears only as a bottom text link, making it less visible and i
 **Evidence:**  
 [p1-ss-23](ScreenShot/p1-ss-23.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
-<h1 align="center">⭐ Day-3 ⭐</h1>
+<h1 align="center"> Day-3 </h1>
 
 ---
 <a id="promodizer-portal"></a>
@@ -710,7 +710,7 @@ Back navigation appears only as a bottom text link, making it less visible and i
 
 **Evidence:**  [p2-ss-1](ScreenShot/p2-ss-1.jpg)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 
@@ -735,7 +735,7 @@ Back navigation appears only as a bottom text link, making it less visible and i
 
 **Evidence:**  [p2-ss-2](ScreenShot/p2-ss-2.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 ## **Module 3 — Attendance History**
@@ -760,7 +760,7 @@ Back navigation appears only as a bottom text link, making it less visible and i
 
 **Evidence:**  [p2-ss-3](ScreenShot/p2-ss-3.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 
@@ -786,7 +786,7 @@ Back navigation appears only as a bottom text link, making it less visible and i
 
 **Evidence:**  [p2-ss-4](ScreenShot/p2-ss-4.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P2-BG-5"></a>
@@ -816,7 +816,7 @@ This makes the sidebar visually inconsistent and confusing.
 
 **Evidence:**  [p2-ss-5](ScreenShot/p2-ss-5.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P2-BG-6"></a>
@@ -836,7 +836,7 @@ This makes the sidebar visually inconsistent and confusing.
 
 **Evidence:**  [p2-ss-6](ScreenShot/p2-ss-6.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P2-BG-7"></a>
@@ -861,7 +861,7 @@ Input is restricted to 7 digits, and multiple “barcode not recognized” pop-u
 **Evidence:**  
 [p2-ss-7](ScreenShot/p2-ss-7.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P2-BG-8"></a>
@@ -885,7 +885,7 @@ Back and Home icons appear outside the header area, causing UI misalignment.
 **Evidence:**  
 [p2-ss-8](ScreenShot/p2-ss-8.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P2-BG-9"></a>
@@ -909,7 +909,7 @@ Elements appear misaligned and uneven, making the error box look unstructured.
 **Evidence:**  
 [p2-ss-9](ScreenShot/p2-ss-9.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P2-BG-10"></a>
@@ -933,7 +933,7 @@ Promodizer Portal displays the icon in a different color while other portals use
 **Evidence:**  
 [p2-ss-10](ScreenShot/p2-ss-10.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P2-BG-11"></a>
@@ -958,7 +958,7 @@ Icons appear in different colors, and hover states differ across tiles, resultin
 **Evidence:**  
 [p2-ss-11](ScreenShot/p2-ss-11.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 
 ---
@@ -991,7 +991,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-1](ScreenShot/p3-ss-1.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-2"></a>
@@ -1012,7 +1012,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-2](ScreenShot/p3-ss-2.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-3"></a>
@@ -1033,7 +1033,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-3](ScreenShot/p3-ss-3.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-4"></a>
@@ -1054,7 +1054,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-4](ScreenShot/p3-ss-4.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-5"></a>
@@ -1075,7 +1075,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-5](ScreenShot/p3-ss-5.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-6"></a>
@@ -1096,7 +1096,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-6](ScreenShot/p3-ss-6.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-7"></a>
@@ -1116,7 +1116,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-7](ScreenShot/p3-ss-7.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 ## **Module 2 — Store Performance**
@@ -1140,7 +1140,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-8](ScreenShot/p3-ss-8.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-9"></a>
@@ -1161,7 +1161,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-9](ScreenShot/p3-ss-9.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 
@@ -1186,7 +1186,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-10](ScreenShot/p3-ss-10.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-11"></a>
@@ -1207,7 +1207,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-11](ScreenShot/p3-ss-11.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-12"></a>
@@ -1228,7 +1228,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-12](ScreenShot/p3-ss-12.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 
@@ -1253,7 +1253,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-13](ScreenShot/p3-ss-13.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-14"></a>
@@ -1274,7 +1274,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-14](ScreenShot/p3-ss-14.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-15"></a>
@@ -1294,7 +1294,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-15](ScreenShot/p3-ss-15.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-16"></a>
@@ -1315,7 +1315,7 @@ These inconsistencies affect UI clarity and overall user experience.
 
 **Evidence:**  [p3-ss-16](ScreenShot/p3-ss-16.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-17"></a>
@@ -1344,7 +1344,7 @@ Same store appears multiple times in the dropdown:
 **Evidence:**  
 [p3-ss-17](ScreenShot/p3-ss-17.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-18"></a>
@@ -1369,7 +1369,7 @@ Filters disappear entirely in mobile view, leaving no option for filtering SKU d
 **Evidence:**  
 [p3-ss-18](ScreenShot/p3-ss-18.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-19"></a>
@@ -1394,7 +1394,7 @@ Dropdown overflows the div and appears outside the layout in mobile view.
 **Evidence:**  
 [p3-ss-19](ScreenShot/p3-ss-19.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-20"></a>
@@ -1423,7 +1423,7 @@ In the Staff Performance module, the **Assignment Stores** section shows UI inco
 **Evidence:**  
 [p3-ss-20](ScreenShot/p3-ss-20.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-21"></a>
@@ -1447,7 +1447,7 @@ The dashboard continues to show old date range and time formats, ignoring the sa
 **Evidence:**  
 [p3-ss-21](ScreenShot/p3-ss-21.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P3-BG-22"></a>
@@ -1472,10 +1472,10 @@ Dashboard loads with previous settings. None of the saved changes are applied.
 **Evidence:**  
 [p3-ss-22](ScreenShot/p3-ss-22.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
-<h1 align="center">⭐ Day-4 ⭐</h1>
+<h1 align="center"> Day-4 </h1>
 <a id="supervisor-portal"></a>
 
 # **gtvl-supervisor-portal — Bug Report**
@@ -1499,7 +1499,7 @@ Dashboard loads with previous settings. None of the saved changes are applied.
 
 **Evidence:**  [p4-ss-1](ScreenShot/p4-ss-1.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-2"></a>
@@ -1524,7 +1524,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-2](ScreenShot/p4-ss-2.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-3"></a>
@@ -1546,7 +1546,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-3](ScreenShot/p4-ss-3.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-4"></a>
@@ -1567,7 +1567,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-4](ScreenShot/p4-ss-4.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-5"></a>
@@ -1588,7 +1588,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-5](ScreenShot/p4-ss-5.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-6"></a>
@@ -1609,7 +1609,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-6](ScreenShot/p4-ss-6.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-7"></a>
@@ -1630,7 +1630,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-7](ScreenShot/p4-ss-7.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-8"></a>
@@ -1652,7 +1652,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-8](ScreenShot/p4-ss-8.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-9"></a>
@@ -1673,7 +1673,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-9](ScreenShot/p4-ss-9.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-10"></a>
@@ -1695,7 +1695,7 @@ Sidebar and Quick Actions display items in different, unaligned orders.
 
 **Evidence:**  [p4-ss-10](ScreenShot/p4-ss-10.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-11"></a>
@@ -1718,7 +1718,7 @@ Button appears improperly placed on the right side, visually detached from relev
 
 **Evidence:**  [p4-ss-11](ScreenShot/p4-ss-11.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-12"></a>
@@ -1738,7 +1738,7 @@ Button appears improperly placed on the right side, visually detached from relev
 
 **Evidence:** [p4-ss-12](ScreenShot/p4-ss-12.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-13"></a>
@@ -1766,7 +1766,7 @@ Button appears improperly placed on the right side, visually detached from relev
 **Evidence:**  
 [p4-ss-13](ScreenShot/p4-ss-13.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 
 ---
@@ -1790,7 +1790,7 @@ Pagination controls do nothing when clicked; user remains on the same page.
 
 **Evidence:**  [p4-ss-14](ScreenShot/p4-ss-14.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-15"></a>
@@ -1819,7 +1819,7 @@ Filter inputs appear without labels, making the UI inconsistent with other secti
 **Evidence:**  
 [p4-ss-15](ScreenShot/p4-ss-15.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-16"></a>
@@ -1843,7 +1843,7 @@ No sorting icons are present, and the table cannot be sorted.
 **Evidence:**  
 [p4-ss-16](ScreenShot/p4-ss-16.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-17"></a>
@@ -1867,7 +1867,7 @@ Management Portal and Supervisor Portal display titles with different typography
 **Evidence:**  
 [p4-ss-17](ScreenShot/p4-ss-17.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 <a id="P4-BG-18"></a>
@@ -1891,7 +1891,7 @@ Button appears with a different style, breaking design consistency across the po
 **Evidence:**  
 [p4-ss-18](ScreenShot/p4-ss-18.png)
 
-[↩️](#top)
+[Return To Top](#top)
 
 ---
 
